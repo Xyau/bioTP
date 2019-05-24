@@ -1,23 +1,12 @@
-import org.biojava.nbio.core.exceptions.CompoundNotFoundException;
-import org.biojava.nbio.core.sequence.ChromosomeSequence;
-import org.biojava.nbio.core.sequence.GeneSequence;
-import org.biojava.nbio.core.sequence.Strand;
-import org.biojava.nbio.core.sequence.TranscriptSequence;
-import org.biojava.nbio.core.sequence.compound.AminoAcidCompoundSet;
-import org.biojava.nbio.core.sequence.compound.NucleotideCompound;
 import org.biojava.nbio.core.sequence.io.FastaSequenceParser;
-import org.biojava.nbio.core.sequence.io.GenericFastaHeaderParser;
-import org.biojava.nbio.core.sequence.io.ProteinSequenceCreator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.io.StringReader;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello yo tengo que hacer el 3er ejerciio");
-
+        //Secuencia de prueba
         String transSeq = ">sp|P03999|OPSB_HUMAN Short-wave-sensitive opsin 1 OS=Homo sapiens OX=9606 GN=OPN1SW PE=1 SV=1\n" +
                 "MRKMSEEEFYLFKNISSVGPWDGPQYHIAPVWAFYLQAAFMGTVFLIGFPLNAMVLVATL\n" +
                 "RYKKLRQPLNYILVNVSFGGFLLCIFSVFPVFVASCNGYFVFGRHVCALEGFLGTVAGLV\n" +
@@ -25,16 +14,22 @@ public class Main {
                 "QCSCGPDWYTVGTKYRSESYTWFLFIFCFIVPLSLICFSYTQLLRALKAVAAQQQESATT\n" +
                 "QKAEREVSRMVVVMVGSFCVCYVPYAAFAMYMVNNRNHGLDLRLVTIPSFFSKSACIYNP\n" +
                 "IIYCFMNKQFQACIMKMVCGKAMTDESDTCSSQKTEVSTVSSTQVGPN";
+        /**
+         * Estaba tratando de hacer funcionar el parseo de biojava, pero no me funciono mucho, les dejo esto por si les
+         *  sirve, pero creo que seria mas facil si pedimos las cosas de una api como hacemos en el {@link aligment.AlignmentClient}
+         *  Si lo pueden hacer funcionar, borren lo que haga falta :D
+         */
         FastaSequenceParser fastaSequenceParser = new FastaSequenceParser();
+        //        FastaGeneWriter fastaGeneWriter = new FastaGeneWriter();
+        String se= null;
         try {
-            fastaSequenceParser.getSequence(new BufferedReader(new StringReader(transSeq)), 10);
+            se = fastaSequenceParser.getSequence(new BufferedReader(new StringReader(transSeq)), -1);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        TranscriptSequence transcriptSequence = null;
+        System.out.println(se);
+//        TranscriptSequence transcriptSequence = null;
 //        try {
-//            transcriptSequence = new TranscriptSequence();
 //        } catch (CompoundNotFoundException e) {
 //            e.printStackTrace();
 //        }
