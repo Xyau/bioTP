@@ -18,7 +18,8 @@ public class BlastMain {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        new BlastService().blast(sequences.values());
+        new BlastService().blast(sequences);
         System.out.println("BLAST completed");
+        System.exit(1);
     }
 }

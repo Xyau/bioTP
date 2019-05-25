@@ -8,9 +8,7 @@ import org.biojava.nbio.core.sequence.io.util.IOUtils;
 import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastService;
 
 import java.io.*;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -34,21 +32,24 @@ public class BlastService {
         outputProps.setAlignmentNumber(0);
     }
 
-    public void blast(final Collection<ProteinSequence> sequences) {
+    public void blast(final LinkedHashMap<String, ProteinSequence> sequences) {
 
         final ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-        final List<String> responsesId = new LinkedList<>();
-        final List<Callable<Boolean>> tasks = new LinkedList<>();
-        for (final ProteinSequence seq : sequences)
-                tasks.add(() -> responsesId.add(ncbiBlastService.sendAlignmentRequest(seq.getSequenceAsString(), searchProps)));
+        final Map<String, String> responsesKey = new HashMap<>();
+        final List<Callable<Void>> tasks = new LinkedList<>();
+        sequences.forEach((accessor, sequence) -> tasks.add(() -> {
+            responsesKey.put(accessor,ncbiBlastService.sendAlignmentRequest(sequence.getSequenceAsString(), searchProps));
+            System.out.println("Remote request for \'" + accessor + "\' was send");
+            return null;
+        }));
+
         try {
             //blocking call
-            System.out.println("Executing BLAST..");
+            System.out.println("Sending remote requests to server..");
             executorService.invokeAll(tasks);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Writing to output file..");
         final File output = new File(BLAST_OUTPUT_FILE);
         try {
             //clear the file if it already exists
@@ -57,8 +58,19 @@ public class BlastService {
                 output.createNewFile();
             }
             final FileWriter writer = new FileWriter(output);
-            for (final String responseId : responsesId) {
-                final InputStream in = ncbiBlastService.getAlignmentResults(responseId, outputProps);
+            tasks.clear();
+            final List<InputStream> resultsList = new LinkedList<>();
+            responsesKey.forEach((accessor, responseKey) -> tasks.add(() -> {
+                resultsList.add(ncbiBlastService.getAlignmentResults(responseKey, outputProps));
+                System.out.println("Remote response for \'" + accessor + "\' was fetched");
+                return null;
+            }));
+
+            System.out.println("Fetching remote responses from server..");
+            executorService.invokeAll(tasks);
+
+            System.out.println("Writing information to file..");
+            for (final InputStream in : resultsList) {
                 final BufferedReader reader = new BufferedReader(new InputStreamReader(in));
                 String line;
                 while ((line = reader.readLine()) != null)
