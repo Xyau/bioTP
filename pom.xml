@@ -26,12 +26,19 @@
             <artifactId>biojava-core</artifactId>
             <version>5.2.0</version>
         </dependency>
+
+        <!-- other biojava jars as needed -->
         <dependency>
             <groupId>org.biojava</groupId>
             <artifactId>biojava-ws</artifactId>
             <version>5.2.0</version>
         </dependency>
-        <!-- other biojava jars as needed -->
+        <dependency>
+            <groupId>org.biojava</groupId>
+            <artifactId>biojava-alignment</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+        
         <!-- https://www.lenar.io/resteasy-how-to-send-http-request-and-get-http-response/ -->
         <dependency>
             <groupId>org.jboss.resteasy</groupId>

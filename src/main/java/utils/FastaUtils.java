@@ -1,7 +1,5 @@
 package utils;
 
-import javafx.util.Builder;
-
 import java.util.Scanner;
 
 public class FastaUtils {
