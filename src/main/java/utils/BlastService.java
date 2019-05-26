@@ -32,7 +32,7 @@ public class BlastService {
         outputProps.setAlignmentNumber(0);
     }
 
-    public void blast(final LinkedHashMap<String, ProteinSequence> sequences) {
+    public void blast(final LinkedHashMap<String, ProteinSequence> sequences, final String outputFilePath) {
 
         final ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
         final Map<String, String> responsesKey = new HashMap<>();
@@ -57,7 +57,7 @@ public class BlastService {
                 output.delete();
                 output.createNewFile();
             }
-            final FileWriter writer = new FileWriter(output);
+            final FileWriter writer = new FileWriter(outputFilePath);
             tasks.clear();
             final List<InputStream> resultsList = new LinkedList<>();
             responsesKey.forEach((accessor, responseKey) -> tasks.add(() -> {
