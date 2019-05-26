@@ -93,6 +93,7 @@ public class SequenceProcessor {
                     continue;
                 }
 
+                proteinSequence.setOriginalHeader(entry.getKey().toString());
                 proteinSequenceList.add(proteinSequence);
             }
             System.out.println();
