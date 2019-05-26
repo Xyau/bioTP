@@ -20,6 +20,6 @@ public class BlastMain {
         }
         new BlastService().blast(sequences);
         System.out.println("BLAST completed");
-        System.exit(1);
+        System.exit(0);
     }
 }
