@@ -1,5 +1,6 @@
-package aligment;
+package ar.edu.itba.bio.bioTP.aligment;
 
+import ar.edu.itba.bio.bioTP.exercise.Exercise;
 import org.biojava.nbio.alignment.Alignments;
 import org.biojava.nbio.core.alignment.template.Profile;
 import org.biojava.nbio.core.sequence.ProteinSequence;
@@ -12,9 +13,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-public class LocalMSA {
+public class LocalMSA implements Exercise {
 
-    public static void main(String[] args) {
+    public void run(String[] args) {
 
         if (args.length < 1){
             System.out.println("You need to specify a Fasta file.");

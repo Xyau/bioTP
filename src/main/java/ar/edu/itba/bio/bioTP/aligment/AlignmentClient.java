@@ -1,4 +1,4 @@
-package aligment;
+package ar.edu.itba.bio.bioTP.aligment;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -7,13 +7,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedHashMap;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.stream.Collectors;
 
 public class AlignmentClient {
     static String PARAMS_URL = "https://www.ebi.ac.uk/Tools/services/rest/clustalo/parameters";

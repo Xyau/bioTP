@@ -1,5 +1,6 @@
-package ar.edu.itba.bio.bioTP;
+package ar.edu.itba.bio.bioTP.sequence;
 
+import ar.edu.itba.bio.bioTP.exercise.Exercise;
 import org.biojava.nbio.core.exceptions.CompoundNotFoundException;
 import org.biojava.nbio.core.sequence.DNASequence;
 import org.biojava.nbio.core.sequence.ProteinSequence;
@@ -13,9 +14,9 @@ import org.biojava.nbio.core.sequence.transcription.TranscriptionEngine;
 import java.io.File;
 import java.util.*;
 
-public class SequenceProcessor {
+public class SequenceProcessor implements Exercise {
 
-    public static void main(String[] args) {
+    public void run(String[] args) {
 
         if (args.length < 1){
             System.out.println("You need to specify a GenBank file");

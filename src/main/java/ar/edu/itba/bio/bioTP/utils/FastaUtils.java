@@ -1,4 +1,4 @@
-package utils;
+package ar.edu.itba.bio.bioTP.utils;
 
 import java.util.Scanner;
 
