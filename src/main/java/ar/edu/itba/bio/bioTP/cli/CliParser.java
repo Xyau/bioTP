@@ -1,5 +1,6 @@
 package ar.edu.itba.bio.bioTP.cli;
 
+import ar.edu.itba.bio.bioTP.aligment.MAS;
 import ar.edu.itba.bio.bioTP.blast.Blast;
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
 import ar.edu.itba.bio.bioTP.sequence.SequenceProcessor;
@@ -33,6 +34,10 @@ public class CliParser {
                 exercise = new LocalMSA();
             }
 
+            if (cmd.hasOption("r")) {
+                exercise = new MAS();
+            }
+
             if (exercise == null){
                 System.out.println("You must select an exercise.");
                 help(options);
@@ -53,6 +58,7 @@ public class CliParser {
         options.addOption("h", "help", false, "Prints this message.");
         options.addOption("s", "sequence", false, "Sequence processor.");
         options.addOption("a", "msa", false, "MSA.");
+        options.addOption("r", "rMsa", false, "Remote MSA");
         options.addOption("b", "blast", false, "Blast.");
         return options;
     }

@@ -26,8 +26,8 @@ public class MAS implements Exercise {
         String align = alignmentClient.getJobOutputAligment();
         System.out.println("Job alignment: \n" + align);
 
-        System.out.println("\nRetrieving phylo tree...");
-        String tree = alignmentClient.getJobOutputPhyloTree();
-        System.out.println("Job phylo tree: \n" + align);
+//        System.out.println("\nRetrieving phylo tree...");
+//        String tree = alignmentClient.getJobOutputPhyloTree();
+//        System.out.println("Job phylo tree: \n" + tree);
     }
 }
