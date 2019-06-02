@@ -8,23 +8,24 @@ import org.biojava.nbio.core.sequence.io.util.IOUtils;
 import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastService;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.stream.Collectors;
 
 import org.biojava.nbio.ws.alignment.qblast.*;
 
-public class BlastService {
+public class RemoteBlastService {
 
     private static final String NCBI_DATA_BASE = "refseq_protein";
-    private static final String BLAST_OUTPUT_FILE = "src/main/resources/output2.fasta";
 
     private final NCBIQBlastService ncbiBlastService = new NCBIQBlastService();
     private final NCBIQBlastAlignmentProperties searchProps = new NCBIQBlastAlignmentProperties();
     private final NCBIQBlastOutputProperties outputProps = new NCBIQBlastOutputProperties();
 
-    public BlastService() {
+    public RemoteBlastService() {
         searchProps.setBlastProgram(BlastProgramEnum.blastp);
         searchProps.setBlastDatabase(NCBI_DATA_BASE);
         outputProps.setOutputFormat(BlastOutputFormatEnum.Text);
@@ -50,14 +51,8 @@ public class BlastService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        final File output = new File(BLAST_OUTPUT_FILE);
+
         try {
-            //clear the file if it already exists
-            if (output.exists()) {
-                output.delete();
-                output.createNewFile();
-            }
-            final FileWriter writer = new FileWriter(outputFilePath);
             tasks.clear();
             final List<InputStream> resultsList = new LinkedList<>();
             responsesKey.forEach((accessor, responseKey) -> tasks.add(() -> {
@@ -70,13 +65,14 @@ public class BlastService {
             executorService.invokeAll(tasks);
 
             System.out.println("Writing information to file..");
-            for (final InputStream in : resultsList) {
-                final BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-                String line;
-                while ((line = reader.readLine()) != null)
-                    writer.write(line + System.getProperty("line.separator"));
-                IOUtils.close(reader);
+            //clear the file if it already exists
+            final File output = new File(outputFilePath);
+            if (output.exists()) {
+                output.delete();
+                output.createNewFile();
             }
+            final FileWriter writer = new FileWriter(outputFilePath);
+            writer.write(findOptimalORF(resultsList));
             IOUtils.close(writer);
         }
         catch (Exception e) {
@@ -84,5 +80,23 @@ public class BlastService {
         }
     }
 
+    private String findOptimalORF(final List<InputStream> resultsList) throws IOException {
+        int maxLength = 0;
+        String ans = null;
+        for (final InputStream in : resultsList) {
+            final String s = convert(in);
+            if (s.length() > maxLength) {
+                maxLength = s.length();
+                ans = s;
+            }
+        }
+        return ans;
+    }
+
+    private String convert(InputStream inputStream) throws IOException {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, Charset.defaultCharset()))) {
+            return br.lines().collect(Collectors.joining(System.lineSeparator()));
+        }
+    }
 }
 
