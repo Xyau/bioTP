@@ -19,7 +19,7 @@ import org.biojava.nbio.ws.alignment.qblast.*;
 
 public class RemoteBlastService {
 
-    private static final String NCBI_DATA_BASE = "refseq_protein";
+    private static final String NCBI_DATA_BASE = "swissprot";
 
     private final NCBIQBlastService ncbiBlastService = new NCBIQBlastService();
     private final NCBIQBlastAlignmentProperties searchProps = new NCBIQBlastAlignmentProperties();
