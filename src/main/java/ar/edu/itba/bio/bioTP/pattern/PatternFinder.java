@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class patternFinder implements Exercise {
+public class PatternFinder implements Exercise {
     public void run(String[] args) {
         if (args.length < 4) {
             System.out.println("You need to specify input file path, output file path, pattern search type and pattern");
@@ -27,32 +27,31 @@ public class patternFinder implements Exercise {
             e.printStackTrace();
         }
         final List<String> matchedHits;
-        switch (args[3]) {
+        switch (args[2]) {
             case "seq":
                 System.out.println("Starting sequence pattern finder..");
-                matchedHits = sequenceFinder(hits, args[4]);
+                matchedHits = sequenceFinder(hits, args[3]);
                 break;
             case "id":
                 System.out.println("Starting id pattern finder..");
-                matchedHits = idFinder(hits, args[4]);
+                matchedHits = idFinder(hits, args[3]);
                 break;
             case "species":
                 System.out.println("Starting species pattern finder..");
-                matchedHits = speciesFinder(hits, args[4]);
+                matchedHits = speciesFinder(hits, args[3]);
                 break;
             default:
-                throw new UnsupportedOperationException("Pattern search type '" + args[4] + "' not supported");
+                throw new UnsupportedOperationException("Pattern search type '" + args[2] + "' not supported");
         }
 
         System.out.println("Generating output..");
-        FileWriter writer = null;
         try {
-            final File output = new File(args[2]);
+            final File output = new File(args[1]);
             if (output.exists()) {
                 output.delete();
                 output.createNewFile();
             }
-            writer = new FileWriter(output);
+            FileWriter writer = new FileWriter(output);
 
             for (final String h : matchedHits) {
                 writer.write(">");
