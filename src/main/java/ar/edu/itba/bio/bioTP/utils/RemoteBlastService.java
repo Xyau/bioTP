@@ -30,7 +30,7 @@ public class RemoteBlastService {
         searchProps.setBlastDatabase(NCBI_DATA_BASE);
         outputProps.setOutputFormat(BlastOutputFormatEnum.Text);
         //ignore alignments, consider only descriptions
-        outputProps.setAlignmentNumber(0);
+        //outputProps.setAlignmentNumber(0);
     }
 
     public void blast(final LinkedHashMap<String, ProteinSequence> sequences, final String outputFilePath) {
