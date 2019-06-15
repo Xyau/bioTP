@@ -3,6 +3,7 @@ package ar.edu.itba.bio.bioTP.pattern;
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -14,13 +15,14 @@ public class PatternFinder implements Exercise {
             System.exit(1);
         }
 
-        String[] hits = null;
+        List<String> hits = null;
         try {
             System.out.println("Reading input file..");
             BufferedReader input = new BufferedReader(new FileReader(args[0]));
             String text = org.apache.commons.io.IOUtils.toString(input);
             text = text.substring(text.indexOf("ALIGNMENTS"));
-            hits = text.split(">");
+            hits = new LinkedList<>(Arrays.asList(text.split(">")));
+            hits.remove(0);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -57,6 +59,7 @@ public class PatternFinder implements Exercise {
                 writer.write(">");
                 writer.write(h);
             }
+            writer.close();
         }
         catch (IOException e) {
             e.printStackTrace();
@@ -64,10 +67,10 @@ public class PatternFinder implements Exercise {
         System.out.println("Pattern search completed");
     }
 
-    private List<String> sequenceFinder(final String[] heats, final String sequencePattern) {
+    private List<String> sequenceFinder(final List<String> heats, final String sequencePattern) {
         final List<String> matchedHits = new LinkedList<>();
-        Arrays.stream(heats).forEach(h -> {
-            final String sequence = h.substring(h.indexOf("Query"));
+        heats.forEach(h -> {
+            final String sequence = h.substring(h.indexOf("Query"), h.length());
             final String[] lines = sequence.split("\n");
             boolean isSubject = false;
             for (final String line : lines) {
@@ -75,7 +78,7 @@ public class PatternFinder implements Exercise {
                     isSubject = true;
                 else if (line.startsWith("Query"))
                     isSubject = false;
-                if (isSubject && line.contains(sequencePattern))
+                if (isSubject && line.toLowerCase().contains(sequencePattern.toLowerCase()))
                     matchedHits.add(h);
             }
 
@@ -83,22 +86,33 @@ public class PatternFinder implements Exercise {
         return matchedHits;
     }
 
-    private List<String> idFinder(final String[] heats, final String idPattern) {
+    private List<String> idFinder(final List<String> heats, final String idPattern) {
         final List<String> matchedHits = new LinkedList<>();
-        Arrays.stream(heats).forEach(h -> {
-            final String id = h.substring(0, h.indexOf(".") - 1);
-            if (id.equals(idPattern))
-                matchedHits.add(id);
+        heats.forEach(h -> {
+            final String[] blocks = h.split("]");
+            //ignore last block (alignments), consider only headers
+            for (int i = 0 ; i < blocks.length - 1 ; i++) {
+                int j = 0;
+                while (!Character.isLetter(blocks[i].charAt(j)))
+                    j++;
+                final String aux = blocks[i].substring(j, blocks[i].length());
+                final String id = aux.substring(0, aux.indexOf(" "));
+                if (id.toLowerCase().equals(idPattern.toLowerCase()))
+                    matchedHits.add(h);
+            }
         });
         return matchedHits;
     }
 
-    private List<String> speciesFinder(final String[] heats, final String speciesPattern) {
+    private List<String> speciesFinder(List<String> heats, final String speciesPattern) {
         final List<String> matchedHits = new LinkedList<>();
-        Arrays.stream(heats).forEach(h -> {
-            final String species = h.substring(h.indexOf("["), h.indexOf("]"));
-            if (species.contains(speciesPattern))
-                matchedHits.add(species);
+        heats.forEach(h -> {
+            final String[] blocks = h.split("]");
+            for (int i = 0 ; i < blocks.length - 1 ; i++) {
+                final String species = blocks[i].substring(blocks[i].indexOf("["), blocks[i].length());
+                if (species.toLowerCase().contains(speciesPattern.toLowerCase()))
+                    matchedHits.add(h);
+            }
         });
         return matchedHits;
     }
