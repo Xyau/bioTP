@@ -2,6 +2,7 @@ package ar.edu.itba.bio.bioTP.cli;
 
 import ar.edu.itba.bio.bioTP.aligment.MAS;
 import ar.edu.itba.bio.bioTP.blast.RemoteBlast;
+import ar.edu.itba.bio.bioTP.emboss.Emboss;
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
 import ar.edu.itba.bio.bioTP.pattern.PatternFinder;
 import ar.edu.itba.bio.bioTP.sequence.SequenceProcessor;
@@ -43,6 +44,10 @@ public class CliParser {
                 exercise = new PatternFinder();
             }
 
+            if (cmd.hasOption("e")) {
+                exercise = new Emboss();
+            }
+
             if (exercise == null){
                 System.out.println("You must select an exercise.");
                 help(options);
@@ -66,6 +71,7 @@ public class CliParser {
         options.addOption("r", "rMsa", false, "Remote MSA");
         options.addOption("b", "blast", false, "RemoteBlast.");
         options.addOption("p", "pattern", false, "Pattern finder.");
+        options.addOption("e", "emboss", false, "Emboss.");
         return options;
     }
 

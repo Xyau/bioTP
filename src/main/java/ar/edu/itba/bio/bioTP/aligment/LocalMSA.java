@@ -1,14 +1,13 @@
 package ar.edu.itba.bio.bioTP.aligment;
 
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
+import ar.edu.itba.bio.bioTP.utils.FastaUtils;
 import org.biojava.nbio.alignment.Alignments;
 import org.biojava.nbio.core.alignment.template.Profile;
 import org.biojava.nbio.core.sequence.ProteinSequence;
 import org.biojava.nbio.core.sequence.compound.AminoAcidCompound;
-import org.biojava.nbio.core.sequence.io.FastaReaderHelper;
 import org.biojava.nbio.core.util.ConcurrencyTools;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -24,7 +23,7 @@ public class LocalMSA implements Exercise {
 
         LinkedHashMap<String, ProteinSequence> proteinSequences = null;
         try {
-            proteinSequences = readFastaFile(args[0]);
+            proteinSequences = FastaUtils.readFastaFile(args[0]);
         } catch (IOException e) {
             System.err.println("Could not read Fasta file.");
             System.exit(1);
@@ -44,10 +43,5 @@ public class LocalMSA implements Exercise {
 
         System.out.printf("Clustalw Alignment:%n%s%n", profile);
         ConcurrencyTools.shutdown();
-    }
-
-    private static LinkedHashMap<String, ProteinSequence> readFastaFile(String filePath) throws IOException {
-        File fastaFile = new File(filePath);
-        return FastaReaderHelper.readFastaProteinSequence(fastaFile);
     }
 }
