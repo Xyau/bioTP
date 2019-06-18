@@ -1,6 +1,7 @@
 package ar.edu.itba.bio.bioTP.cli;
 
 import ar.edu.itba.bio.bioTP.aligment.MSA;
+import ar.edu.itba.bio.bioTP.blast.LocalBlast;
 import ar.edu.itba.bio.bioTP.blast.RemoteBlast;
 import ar.edu.itba.bio.bioTP.emboss.Emboss;
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
@@ -28,7 +29,11 @@ public class CliParser {
                 exercise = new SequenceProcessor();
             }
 
-            if (cmd.hasOption("b")) {
+            if (cmd.hasOption("lb")) {
+                exercise = new LocalBlast();
+            }
+
+            if (cmd.hasOption("rb")) {
                 exercise = new RemoteBlast();
             }
 
@@ -69,7 +74,8 @@ public class CliParser {
         options.addOption("s", "sequence", false, "Sequence processor.");
         options.addOption("a", "msa", false, "MSA.");
         options.addOption("r", "rMsa", false, "Remote MSA");
-        options.addOption("b", "blast", false, "RemoteBlast.");
+        options.addOption("lb", "lblast", false, "Local blast.");
+        options.addOption("rb", "rblast", false, "Remote blast.");
         options.addOption("p", "pattern", false, "Pattern finder.");
         options.addOption("e", "emboss", false, "Emboss.");
         return options;

@@ -2,6 +2,7 @@ package ar.edu.itba.bio.bioTP.emboss;
 
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
 import ar.edu.itba.bio.bioTP.utils.FastaUtils;
+import ar.edu.itba.bio.bioTP.utils.Utils;
 import org.biojava.nbio.core.exceptions.CompoundNotFoundException;
 import org.biojava.nbio.core.sequence.ProteinSequence;
 import org.biojava.nbio.core.sequence.io.FastaWriterHelper;
@@ -87,47 +88,14 @@ public class Emboss implements Exercise {
     }
 
     private void getOrf(String inputFile, String outputFile) {
-        runProcess("getorf " + inputFile + " -outseq " + outputFile + " -find 3", outputFile);
+        Utils.runProcess("getorf " + inputFile + " -outseq " + outputFile + " -find 3", outputFile);
     }
 
     private void translate(String longestOrfPath, String translatedPath) {
-        runProcess("transeq " + longestOrfPath + " -outseq " + translatedPath, translatedPath);
+        Utils.runProcess("transeq " + longestOrfPath + " -outseq " + translatedPath, translatedPath);
     }
 
     private void getMotifs(String inputFile, String outFilePath) {
-        runProcess("patmatmotifs " + inputFile + " -outfile " + outFilePath, outFilePath);
+        Utils.runProcess("patmatmotifs " + inputFile + " -outfile " + outFilePath, outFilePath);
     }
-
-    private void runProcess(String command, String outFilePath){
-        ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("bash", "-c", command);
-
-        System.out.println("Running command: " + command);
-
-        try {
-
-            Process process = processBuilder.start();
-
-            BufferedReader reader =
-                    new BufferedReader(new InputStreamReader(process.getInputStream()));
-
-            String line;
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
-
-            int exitCode = process.waitFor();
-
-            if (exitCode == 0) {
-                System.out.println("Output written to file " + outFilePath);
-            } else {
-                System.err.println("There was a problem running the command. Error code: " + exitCode);
-            }
-
-        } catch (IOException | InterruptedException e) {
-            System.err.println("There was a problem running command.");
-            System.exit(1);
-        }
-    }
-
 }
