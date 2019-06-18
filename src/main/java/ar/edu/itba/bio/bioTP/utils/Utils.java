@@ -1,8 +1,6 @@
 package ar.edu.itba.bio.bioTP.utils;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -16,14 +14,5 @@ public class Utils {
             e.printStackTrace();
             throw new IllegalArgumentException("illegal path" + path);
         }
-    }
-
-    public String encode(String str){
-        try {
-            return URLEncoder.encode(str, "US-ASCII");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return str;
     }
 }

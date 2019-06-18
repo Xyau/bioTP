@@ -4,7 +4,7 @@ import ar.edu.itba.bio.bioTP.exercise.Exercise;
 
 import static ar.edu.itba.bio.bioTP.utils.Utils.readFromFile;
 
-public class MAS implements Exercise {
+public class MSA implements Exercise {
     static String MALIGN = "./src/main/resources/malign.fa";
 //curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: text/plain' -d 'email=julian%40benitez.nu&title=Julian&guidetreeout=false&dismatout=true&dealign=true&mbed=true&mbediteration=true&iterations=3&gtiterations=0&hmmiterations=1&outfmt=fa&stype=dna&sequence=%3EMUT1%0AtagtgtgcTggggaacgaggcttGTcttctacacaCcAGTCccaagacccgccgggaggc%0AagaACACTAggacc%0A%3EMUT2%0AtagtgtgcggggAaacgaggcttcttcTGGtacaCCGGCcaACAcccaagacccgccggg%0AaggcagAATTAGaggacc%0A%3EMUT3%0AtagtgtgcggggaTTATCCacgaCgTTCAACATGgcttctAtcGTCtacacacccaagac%0Accgccgggaggcagaggacc' 'https://www.ebi.ac.uk/Tools/services/rest/clustalo/run'
     public void run(String[] args) {

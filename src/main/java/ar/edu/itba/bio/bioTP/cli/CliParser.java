@@ -1,6 +1,6 @@
 package ar.edu.itba.bio.bioTP.cli;
 
-import ar.edu.itba.bio.bioTP.aligment.MAS;
+import ar.edu.itba.bio.bioTP.aligment.MSA;
 import ar.edu.itba.bio.bioTP.blast.RemoteBlast;
 import ar.edu.itba.bio.bioTP.emboss.Emboss;
 import ar.edu.itba.bio.bioTP.exercise.Exercise;
@@ -37,7 +37,7 @@ public class CliParser {
             }
 
             if (cmd.hasOption("r")) {
-                exercise = new MAS();
+                exercise = new MSA();
             }
 
             if (cmd.hasOption("p")) {
