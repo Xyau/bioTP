@@ -1,103 +1,113 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
 BLASTP 2.9.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
 
 
-Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
-Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
-Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
-protein database search programs", Nucleic Acids Res. 25:3389-3402.
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
 
 
-Reference for composition-based statistics: Alejandro A. Schaffer,
-L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
-I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
-"Improving the accuracy of PSI-BLAST protein database searches with
-composition-based statistics and other refinements", Nucleic Acids
-Res. 29:2994-3005.
+RID: GGPHKRBM015
 
 
-
-Database: swissprot.fasta
-           471,914 sequences; 178,280,828 total letters
-
-
-
-Query= ONE
-
+Database: Non-redundant UniProtKB/SwissProt sequences
+           470,929 sequences; 177,790,675 total letters
+Query=
 Length=978
-                                                                      Score        E
-Sequences producing significant alignments:                          (Bits)     Value
-
-Q5SW96.3 RecName: Full=Low density lipoprotein receptor adapter p...  635        0.0   
-Q8C142.3 RecName: Full=Low density lipoprotein receptor adapter p...  548        0.0   
-D3ZAR1.2 RecName: Full=Low density lipoprotein receptor adapter p...  539        0.0   
-Q67FQ3.1 RecName: Full=Low density lipoprotein receptor adapter p...  443        1e-147
-Q801G1.1 RecName: Full=Low density lipoprotein receptor adapter p...  439        3e-146
-Q32PV0.1 RecName: Full=PTB domain-containing engulfment adapter p...  89.7       3e-18 
-Q9UBP9.1 RecName: Full=PTB domain-containing engulfment adapter p...  89.0       7e-18 
-Q8K2A1.1 RecName: Full=PTB domain-containing engulfment adapter p...  87.0       3e-17 
-Q5PQS4.1 RecName: Full=PTB domain-containing engulfment adapter p...  85.1       1e-16 
-A1L1I3.1 RecName: Full=Numb-like protein                              76.3       5e-13 
-Q9Y6R0.1 RecName: Full=Numb-like protein; AltName: Full=Numb-rela...  75.9       7e-13 
-O08919.3 RecName: Full=Numb-like protein                              75.9       7e-13 
-Q7JUY7.1 RecName: Full=PTB domain-containing adapter protein ced-...  75.1       1e-12 
-P49757.2 RecName: Full=Protein numb homolog; Short=h-Numb; AltNam...  75.1       2e-12 
-Q2LC84.2 RecName: Full=Protein numb homolog                           75.1       2e-12 
-Q9QZS3.1 RecName: Full=Protein numb homolog; Short=m-Nb; Short=m-...  74.7       2e-12 
-Q8STF6.1 RecName: Full=Dystrophin-like protein 1; AltName: Full=D...  71.2       3e-11 
-P16554.2 RecName: Full=Protein numb                                   68.2       2e-10 
-Q8SXX4.1 RecName: Full=Capon-like protein                             67.4       4e-10 
-Q9XTY6.1 RecName: Full=Numb-related protein 1; AltName: Full=CKA1...  65.9       1e-09 
-Q8CJH2.1 RecName: Full=Disabled homolog 1                             65.5       1e-09 
-P97318.2 RecName: Full=Disabled homolog 1                             65.1       2e-09 
-O75553.3 RecName: Full=Disabled homolog 1                             64.7       2e-09 
-O76337.1 RecName: Full=Cell death protein 6; AltName: Full=Candid...  64.3       3e-09 
-Q9BGX5.1 RecName: Full=Disabled homolog 1                             63.9       4e-09 
-A5PMU4.1 RecName: Full=Ankyrin repeat and sterile alpha motif dom...  63.9       7e-09 
-Q8BIZ1.3 RecName: Full=Ankyrin repeat and sterile alpha motif dom...  63.5       8e-09 
-Q7Z6G8.2 RecName: Full=Ankyrin repeat and sterile alpha motif dom...  62.8       1e-08 
-P0C6S7.1 RecName: Full=Ankyrin repeat and sterile alpha motif dom...  62.8       1e-08 
-Q8BUP8.1 RecName: Full=Protein FAM43A                                 60.8       3e-08 
-P98081.2 RecName: Full=Protein disabled                               61.2       4e-08 
-O75052.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal n...  60.5       4e-08 
-Q9D3A8.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal n...  59.7       7e-08 
-Q8N2R8.2 RecName: Full=Protein FAM43A                                 59.3       8e-08 
-O54960.1 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal n...  59.3       9e-08 
-P59672.3 RecName: Full=Ankyrin repeat and SAM domain-containing p...  56.2       1e-06 
-Q92625.4 RecName: Full=Ankyrin repeat and SAM domain-containing p...  56.2       1e-06 
-Q6ZT52.1 RecName: Full=Protein FAM43B                                 52.4       1e-05 
-P98082.3 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor ...  52.0       2e-05 
-P98078.2 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor ...  49.3       1e-04 
-O88797.1 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor ...  49.3       2e-04 
-Q9WVI9.2 RecName: Full=C-Jun-amino-terminal kinase-interacting pr...  45.8       0.002 
-Q9R237.2 RecName: Full=C-Jun-amino-terminal kinase-interacting pr...  44.7       0.004 
-O70142.2 RecName: Full=SHC-transforming protein 2; AltName: Full=...  44.7       0.004 
-Q9UQF2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting pr...  44.3       0.005 
-Q8BMC3.3 RecName: Full=SHC-transforming protein 2; AltName: Full=...  44.3       0.005 
-A6H6A9.1 RecName: Full=Rab GTPase-activating protein 1-like           43.1       0.012 
-Q6S5L9.1 RecName: Full=SHC-transforming protein 4; AltName: Full=...  42.4       0.019 
-Q5R372.1 RecName: Full=Rab GTPase-activating protein 1-like           42.4       0.021 
-Q5RCW6.1 RecName: Full=Rab GTPase-activating protein 1-like           42.0       0.025 
-Q5R7W7.1 RecName: Full=SHC-transforming protein 1; AltName: Full=...  41.2       0.038 
-P29353.4 RecName: Full=SHC-transforming protein 1; AltName: Full=...  41.2       0.039 
-P98083.3 RecName: Full=SHC-transforming protein 1; AltName: Full=...  41.2       0.041 
-Q0IIE2.1 RecName: Full=SHC-transforming protein 1; AltName: Full=...  40.4       0.075 
-Q6S5L8.1 RecName: Full=SHC-transforming protein 4; AltName: Full=...  39.7       0.12  
-Q5M824.1 RecName: Full=SHC-transforming protein 1; AltName: Full=...  39.7       0.13  
-Q92870.3 RecName: Full=Amyloid-beta A4 precursor protein-binding ...  39.7       0.13  
-Q9DBR4.2 RecName: Full=Amyloid-beta A4 precursor protein-binding ...  39.7       0.14  
-Q8AY68.2 RecName: Full=SHC-transforming protein 1; AltName: Full=...  39.3       0.18  
-Q3UBG2.2 RecName: Full=PTB-containing, cubilin and LRP1-interacti...  37.0       0.44  
-Q9Y3P9.3 RecName: Full=Rab GTPase-activating protein 1; AltName: ...  37.7       0.58  
-Q5RAN1.1 RecName: Full=Rab GTPase-activating protein 1; AltName: ...  37.7       0.61  
-Q5ZJ17.1 RecName: Full=Rab GTPase-activating protein 1-like           37.0       1.0   
-A2AWA9.1 RecName: Full=Rab GTPase-activating protein 1; AltName: ...  36.6       1.4   
-O96018.1 RecName: Full=Amyloid-beta A4 precursor protein-binding ...  35.8       1.9   
-Q7Z2X4.1 RecName: Full=PTB-containing, cubilin and LRP1-interacti...  35.0       2.2   
 
 
->Q5SW96.3 RecName: Full=Low density lipoprotein receptor adapter 
-protein 1; AltName: Full=Autosomal recessive hypercholesterolemia 
-protein
+                                                                   Score        E      Max
+Sequences producing significant alignments:                       (Bits)     Value   ident
+
+Q5SW96.3 RecName: Full=Low density lipoprotein receptor adapte...  635        0.0     100%
+Q8C142.3 RecName: Full=Low density lipoprotein receptor adapte...  548        0.0     89%
+D3ZAR1.2 RecName: Full=Low density lipoprotein receptor adapte...  539        0.0     89%
+Q67FQ3.1 RecName: Full=Low density lipoprotein receptor adapte...  443        1e-147  71%
+Q801G1.1 RecName: Full=Low density lipoprotein receptor adapte...  439        3e-146  71%
+Q32PV0.1 RecName: Full=PTB domain-containing engulfment adapte...  89.7       3e-18   32%
+Q9UBP9.1 RecName: Full=PTB domain-containing engulfment adapte...  89.0       7e-18   32%
+Q8K2A1.1 RecName: Full=PTB domain-containing engulfment adapte...  87.0       3e-17   32%
+Q5PQS4.1 RecName: Full=PTB domain-containing engulfment adapte...  85.1       1e-16   31%
+A1L1I3.1 RecName: Full=Numb-like protein [Rattus norvegicus]       76.3       5e-13   31%
+Q9Y6R0.1 RecName: Full=Numb-like protein; AltName: Full=Numb-r...  75.9       7e-13   31%
+O08919.3 RecName: Full=Numb-like protein [Mus musculus]            75.9       7e-13   31%
+Q7JUY7.1 RecName: Full=PTB domain-containing adapter protein c...  75.1       1e-12   28%
+P49757.2 RecName: Full=Protein numb homolog; Short=h-Numb; Alt...  75.1       2e-12   31%
+Q2LC84.2 RecName: Full=Protein numb homolog [Rattus norvegicus]    75.1       2e-12   31%
+Q9QZS3.1 RecName: Full=Protein numb homolog; Short=m-Nb; Short...  74.7       2e-12   31%
+Q8STF6.1 RecName: Full=Dystrophin-like protein 1; AltName: Ful...  71.2       3e-11   29%
+P16554.2 RecName: Full=Protein numb [Drosophila melanogaster]      68.2       2e-10   25%
+Q8SXX4.1 RecName: Full=Capon-like protein [Drosophila melanoga...  67.4       4e-10   26%
+Q9XTY6.1 RecName: Full=Numb-related protein 1; AltName: Full=C...  65.9       1e-09   31%
+Q8CJH2.1 RecName: Full=Disabled homolog 1 [Rattus norvegicus]      65.5       1e-09   29%
+P97318.2 RecName: Full=Disabled homolog 1 [Mus musculus]           65.1       2e-09   29%
+O75553.3 RecName: Full=Disabled homolog 1 [Homo sapiens]           64.7       2e-09   29%
+O76337.1 RecName: Full=Cell death protein 6; AltName: Full=Can...  64.3       3e-09   28%
+Q9BGX5.1 RecName: Full=Disabled homolog 1 [Macaca fascicularis]    63.9       4e-09   29%
+A5PMU4.1 RecName: Full=Ankyrin repeat and sterile alpha motif ...  63.9       7e-09   29%
+Q8BIZ1.3 RecName: Full=Ankyrin repeat and sterile alpha motif ...  63.5       8e-09   29%
+Q7Z6G8.2 RecName: Full=Ankyrin repeat and sterile alpha motif ...  62.8       1e-08   29%
+P0C6S7.1 RecName: Full=Ankyrin repeat and sterile alpha motif ...  62.8       1e-08   29%
+Q8BUP8.1 RecName: Full=Protein FAM43A [Mus musculus]               60.8       3e-08   28%
+P98081.2 RecName: Full=Protein disabled [Drosophila melanogaster]  61.2       4e-08   26%
+O75052.3 RecName: Full=Carboxyl-terminal PDZ ligand of neurona...  60.5       4e-08   26%
+Q9D3A8.3 RecName: Full=Carboxyl-terminal PDZ ligand of neurona...  59.7       7e-08   29%
+Q8N2R8.2 RecName: Full=Protein FAM43A [Homo sapiens]               59.3       8e-08   29%
+O54960.1 RecName: Full=Carboxyl-terminal PDZ ligand of neurona...  59.3       9e-08   29%
+P59672.3 RecName: Full=Ankyrin repeat and SAM domain-containin...  56.2       1e-06   26%
+Q92625.4 RecName: Full=Ankyrin repeat and SAM domain-containin...  56.2       1e-06   25%
+Q6ZT52.1 RecName: Full=Protein FAM43B [Homo sapiens]               52.4       1e-05   26%
+P98082.3 RecName: Full=Disabled homolog 2; AltName: Full=Adapt...  52.0       2e-05   23%
+P98078.2 RecName: Full=Disabled homolog 2; AltName: Full=Adapt...  49.3       1e-04   21%
+O88797.1 RecName: Full=Disabled homolog 2; AltName: Full=Adapt...  49.3       2e-04   22%
+Q9WVI9.2 RecName: Full=C-Jun-amino-terminal kinase-interacting...  45.8       0.002   24%
+Q9R237.2 RecName: Full=C-Jun-amino-terminal kinase-interacting...  44.7       0.004   22%
+O70142.2 RecName: Full=SHC-transforming protein 2; AltName: Fu...  44.7       0.004   31%
+Q9UQF2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting...  44.3       0.005   23%
+Q8BMC3.3 RecName: Full=SHC-transforming protein 2; AltName: Fu...  44.3       0.005   31%
+A6H6A9.1 RecName: Full=Rab GTPase-activating protein 1-like [M...  43.1       0.012   28%
+Q6S5L9.1 RecName: Full=SHC-transforming protein 4; AltName: Fu...  42.4       0.019   33%
+Q5R372.1 RecName: Full=Rab GTPase-activating protein 1-like [H...  42.4       0.021   28%
+Q5RCW6.1 RecName: Full=Rab GTPase-activating protein 1-like [P...  42.0       0.025   28%
+Q5R7W7.1 RecName: Full=SHC-transforming protein 1; AltName: Fu...  41.2       0.038   31%
+P29353.4 RecName: Full=SHC-transforming protein 1; AltName: Fu...  41.2       0.039   31%
+P98083.3 RecName: Full=SHC-transforming protein 1; AltName: Fu...  41.2       0.040   31%
+Q0IIE2.1 RecName: Full=SHC-transforming protein 1; AltName: Fu...  40.4       0.075   31%
+Q6S5L8.1 RecName: Full=SHC-transforming protein 4; AltName: Fu...  39.7       0.12    29%
+Q5M824.1 RecName: Full=SHC-transforming protein 1; AltName: Fu...  39.7       0.13    31%
+Q92870.3 RecName: Full=Amyloid-beta A4 precursor protein-bindi...  39.7       0.13    24%
+Q9DBR4.2 RecName: Full=Amyloid-beta A4 precursor protein-bindi...  39.7       0.14    25%
+Q8AY68.2 RecName: Full=SHC-transforming protein 1; AltName: Fu...  39.3       0.18    31%
+Q3UBG2.2 RecName: Full=PTB-containing, cubilin and LRP1-intera...  37.0       0.44    27%
+Q9Y3P9.3 RecName: Full=Rab GTPase-activating protein 1; AltNam...  37.7       0.58    27%
+Q5RAN1.1 RecName: Full=Rab GTPase-activating protein 1; AltNam...  37.7       0.61    27%
+Q13387.2 RecName: Full=C-Jun-amino-terminal kinase-interacting...  37.4       0.80    24%
+Q5ZJ17.1 RecName: Full=Rab GTPase-activating protein 1-like [G...  37.0       1.0     26%
+A2AWA9.1 RecName: Full=Rab GTPase-activating protein 1; AltNam...  36.6       1.4     26%
+O96018.1 RecName: Full=Amyloid-beta A4 precursor protein-bindi...  35.8       1.9     27%
+O70248.2 RecName: Full=Amyloid-beta A4 precursor protein-bindi...  35.8       2.2     28%
+Q7Z2X4.1 RecName: Full=PTB-containing, cubilin and LRP1-intera...  35.0       2.2     25%
+Q9ERE9.1 RecName: Full=C-Jun-amino-terminal kinase-interacting...  35.8       2.4     24%
+G3V9M2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting...  35.4       2.6     24%
+P46933.3 RecName: Full=Amyloid-beta A4 precursor protein-bindi...  33.5       9.7     32%
+
+ALIGNMENTS
+>Q5SW96.3 RecName: Full=Low density lipoprotein receptor adapter protein
+1; AltName: Full=Autosomal recessive hypercholesterolemia
+protein [Homo sapiens]
 Length=308
 
  Score = 635 bits (1639),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -128,9 +138,9 @@ Query  339  EQDDLFSF  346
 Sbjct  301  EQDDLFSF  308
 
 
->Q8C142.3 RecName: Full=Low density lipoprotein receptor adapter 
-protein 1; AltName: Full=Autosomal recessive hypercholesterolemia 
-protein homolog
+>Q8C142.3 RecName: Full=Low density lipoprotein receptor adapter protein
+1; AltName: Full=Autosomal recessive hypercholesterolemia
+protein homolog [Mus musculus]
 Length=308
 
  Score = 548 bits (1412),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -153,7 +163,7 @@ Query  219  KRDKASQEGGDVLGARQDCTPSLKSLVATGNLLDLEETAKAPLSTVSANTTNMDEVPRPQ  278
 Sbjct  180  KREKANQEGGDVPGTRRDSTPSLKTLVATGNLLDLEEVAKAPLSTVSANTNNVDETPRPQ  239
 
 Query  279  ALSGSSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQDMHYAQCLSPVDWDKPDSSGT  338
-             L  +SVVWELDDGLDEAFSRLAQSRTNPQVLDTGL+AQD+HYAQCLSP DWDKPDSSG 
+             L  +SVVWELDDGLDEAFSRLAQSRTNPQVLDTGL+AQD+HYAQCLSP DWDKPDSSG
 Sbjct  240  VLGNNSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLSAQDIHYAQCLSPTDWDKPDSSGI  299
 
 Query  339  EQ-DDLFSF  346
@@ -161,9 +171,9 @@ Query  339  EQ-DDLFSF  346
 Sbjct  300  DQDDDVFTF  308
 
 
->D3ZAR1.2 RecName: Full=Low density lipoprotein receptor adapter 
-protein 1; AltName: Full=Autosomal recessive hypercholesterolemia 
-protein homolog
+>D3ZAR1.2 RecName: Full=Low density lipoprotein receptor adapter protein
+1; AltName: Full=Autosomal recessive hypercholesterolemia
+protein homolog [Rattus norvegicus]
 Length=306
 
  Score = 539 bits (1389),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -186,7 +196,7 @@ Query  219  KRDKASQEGGDVLGARQDCTPSLKSLVATGNLLDLEETAKAPLSTVSANTTNMDEVPRPQ  278
 Sbjct  179  KREKANQEGGDVPGTRRDSTPSLKTSVATGNLLDLEELAKAPLSTVSANTKNMDDALRPQ  238
 
 Query  279  ALSGSSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQDMHYAQCLSPVDWDKPDSSGT  338
-             L  +SVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQD+HYAQCLSP DWDKPDSSG 
+             L  +SVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQD+HYAQCLSP DWDKPDSSG
 Sbjct  239  VLGNNSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQDIHYAQCLSPTDWDKPDSSGF  298
 
 Query  339  EQDDLFSF  346
@@ -194,10 +204,10 @@ Query  339  EQDDLFSF  346
 Sbjct  299  DQDDVFSF  306
 
 
->Q67FQ3.1 RecName: Full=Low density lipoprotein receptor adapter 
-protein 1-B; AltName: Full=Autosomal recessive hypercholesterolemia 
-protein homolog beta; Short=ARH beta; Short=xARH 
-beta
+>Q67FQ3.1 RecName: Full=Low density lipoprotein receptor adapter protein
+1-B; AltName: Full=Autosomal recessive hypercholesterolemia
+protein homolog beta; Short=ARH beta; Short=xARH beta [Xenopus
+laevis]
 Length=309
 
  Score = 443 bits (1140),  Expect = 1e-147, Method: Composition-based stats.
@@ -220,7 +230,7 @@ Query  219  KRDKASQEGGDVLGARQDCTPSLKSL--VATGNLLDLEETAKAPLSTVSANTTNMDEVPR  276
 Sbjct  180  KREKSGSDGEGASSSQSDGSSSITSLKASASANLLDFEDCTKA-FDVLNASDNHIEDLFR  238
 
 Query  277  PQALS-GSSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQDMHYAQCLSPVDWDKPDS  335
-              + +  +++VWELDDGLDEAF+RLA+SRTNPQVLD GLTA D+   +CLSP  WDK + 
+              + +  +++VWELDDGLDEAF+RLA+SRTNPQVLD GLTA D+   +CLSP  WDK +
 Sbjct  239  QNSTNENNNIVWELDDGLDEAFARLAESRTNPQVLDIGLTANDLQSEECLSPTSWDKLEL  298
 
 Query  336  SGTEQDDLFSF  346
@@ -228,11 +238,11 @@ Query  336  SGTEQDDLFSF  346
 Sbjct  299  NPAEADELFMF  309
 
 
->Q801G1.1 RecName: Full=Low density lipoprotein receptor adapter 
-protein 1-A; AltName: Full=Autosomal recessive hypercholesterolemia 
-protein homolog alpha; Short=ARH alpha; Short=xARH 
-alpha; AltName: Full=Phosphotyrosine-binding protein; AltName: 
-Full=Xcat4
+>Q801G1.1 RecName: Full=Low density lipoprotein receptor adapter protein
+1-A; AltName: Full=Autosomal recessive hypercholesterolemia
+protein homolog alpha; Short=ARH alpha; Short=xARH alpha;
+AltName: Full=Phosphotyrosine-binding protein; AltName: Full=Xcat4
+[Xenopus laevis]
 Length=309
 
  Score = 439 bits (1130),  Expect = 3e-146, Method: Composition-based stats.
@@ -255,7 +265,7 @@ Query  219  KRDKASQEGGDVLGARQDCTPSLKSL--VATGNLLDLEETAKAPLSTVSANTTNMDEVPR  276
 Sbjct  180  KREKSGSGGEGASSSQSDGSSSITSLKASASANLLDLEDCTKA-FDVLNASDNHIEDLFR  238
 
 Query  277  PQALS-GSSVVWELDDGLDEAFSRLAQSRTNPQVLDTGLTAQDMHYAQCLSPVDWDKPDS  335
-              A +  +++VWELDDGLDEAF+RLA+SRTNPQVLD GLTA D+   +CLSP  WDK + 
+              A +  +++VWELDDGLDEAF+RLA+SRTNPQVLD GLTA D+   +CLSP  WDK +
 Sbjct  239  QNASNENNNIVWELDDGLDEAFARLAESRTNPQVLDIGLTANDLQSEECLSPSSWDKLEL  298
 
 Query  336  SGTEQDDLFSF  346
@@ -263,9 +273,9 @@ Query  336  SGTEQDDLFSF  346
 Sbjct  299  NPAEADELFMF  309
 
 
->Q32PV0.1 RecName: Full=PTB domain-containing engulfment adapter 
-protein 1; AltName: Full=Cell death protein 6 homolog; AltName: 
-Full=PTB domain adapter protein CED-6
+>Q32PV0.1 RecName: Full=PTB domain-containing engulfment adapter protein
+1; AltName: Full=Cell death protein 6 homolog; AltName: Full=PTB
+domain adapter protein CED-6 [Danio rerio]
 Length=300
 
  Score = 89.7 bits (221),  Expect = 3e-18, Method: Compositional matrix adjust.
@@ -284,10 +294,10 @@ Query  182  HAFLCTKRKMAQAVTLTVAQAFKVAFE  208
 Sbjct  126  YVF--DSEKCAEEITLTIGQAFDLAYK  150
 
 
->Q9UBP9.1 RecName: Full=PTB domain-containing engulfment adapter 
-protein 1; AltName: Full=Cell death protein 6 homolog; AltName: 
-Full=PTB domain adapter protein CED-6; AltName: Full=Protein 
-GULP
+>Q9UBP9.1 RecName: Full=PTB domain-containing engulfment adapter protein
+1; AltName: Full=Cell death protein 6 homolog; AltName: Full=PTB
+domain adapter protein CED-6; AltName: Full=Protein GULP
+[Homo sapiens]
 Length=304
 
  Score = 89.0 bits (219),  Expect = 7e-18, Method: Compositional matrix adjust.
@@ -306,10 +316,10 @@ Query  183  AFLCTKRKMAQAVTLTVAQAFKVAF  207
 Sbjct  127  VF--DSEKCAEEITLTIGQAFDLAY  149
 
 
->Q8K2A1.1 RecName: Full=PTB domain-containing engulfment adapter 
-protein 1; AltName: Full=Cell death protein 6 homolog; AltName: 
-Full=PTB domain adapter protein CED-6; AltName: Full=Protein 
-GULP
+>Q8K2A1.1 RecName: Full=PTB domain-containing engulfment adapter protein
+1; AltName: Full=Cell death protein 6 homolog; AltName: Full=PTB
+domain adapter protein CED-6; AltName: Full=Protein GULP
+[Mus musculus]
 Length=304
 
  Score = 87.0 bits (214),  Expect = 3e-17, Method: Compositional matrix adjust.
@@ -320,7 +330,7 @@ Query  67   RKLPENWTDTRETLLEGML-FSLKYLGMTLVEQPKGEELSAAAIKRIV---ATAKASGKK  122
 Sbjct  7    RKKDKTWMHTPEALSKHYIPYNAKFLGSTEVEQPKGTEVVRDAVRKLKFARHIKKSEGQK  66
 
 Query  123  LQKVTLKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECH  182
-            + KV L++S  G+ + +  T ++  N  ++RIS+C  DK   ++F +I +   +    C 
+            + KV L++S  G+ + +  T ++  N  ++RIS+C  DK   ++F +I +   +    C
 Sbjct  67   IPKVELQISIYGVKILEPKTKEVQHNCQLHRISFCADDKTDKRIFTFICKDSESNKHLC-  125
 
 Query  183  AFLCTKRKMAQAVTLTVAQAFKVAF  207
@@ -328,10 +338,10 @@ Query  183  AFLCTKRKMAQAVTLTVAQAFKVAF  207
 Sbjct  126  -FVFDSEKCAEEITLTIGQAFDLAY  149
 
 
->Q5PQS4.1 RecName: Full=PTB domain-containing engulfment adapter 
-protein 1; AltName: Full=Cell death protein 6 homolog; AltName: 
-Full=PTB domain adapter protein CED-6; AltName: Full=Protein 
-GULP
+>Q5PQS4.1 RecName: Full=PTB domain-containing engulfment adapter protein
+1; AltName: Full=Cell death protein 6 homolog; AltName: Full=PTB
+domain adapter protein CED-6; AltName: Full=Protein GULP
+[Rattus norvegicus]
 Length=304
 
  Score = 85.1 bits (209),  Expect = 1e-16, Method: Compositional matrix adjust.
@@ -342,7 +352,7 @@ Query  67   RKLPENWTDTRETLLEGML-FSLKYLGMTLVEQPKGEELSAAAIKRIV---ATAKASGKK  122
 Sbjct  7    RKKDKTWMHMPEALSKHYVPYNAKFLGSTEVEQPKGTEVVRDAVRKLKFARHIKKSEGQK  66
 
 Query  123  LQKVTLKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECH  182
-            + KV L++S  G+ + +  T ++  N  ++RIS+C  DK   ++F +I +   +    C 
+            + KV L++S  G+ + +  T ++  N  ++RIS+C  DK   ++F +I +   +    C
 Sbjct  67   IPKVELQISIYGVKILEPKTKEVQHNCQLHRISFCADDKTDKRIFTFICKDSESNKHLC-  125
 
 Query  183  AFLCTKRKMAQAVTLTVAQAFKVAF-EFWQVSKEEKEKR  220
@@ -350,7 +360,7 @@ Query  183  AFLCTKRKMAQAVTLTVAQAFKVAF-EFWQVSKEEKEKR  220
 Sbjct  126  -FVFDSEKCAEEITLTIGQAFDLAYRKFLESGGKDVETR  163
 
 
->A1L1I3.1 RecName: Full=Numb-like protein
+>A1L1I3.1 RecName: Full=Numb-like protein [Rattus norvegicus]
 Length=614
 
  Score = 76.3 bits (186),  Expect = 5e-13, Method: Compositional matrix adjust.
@@ -369,8 +379,8 @@ Query  189  RKMAQAVTLTVAQAFKVAFEFWQVSKEEKE  218
 Sbjct  179  -DSGERLSHAVGCAFAACLERKQ--RREKE  205
 
 
->Q9Y6R0.1 RecName: Full=Numb-like protein; AltName: Full=Numb-related 
-protein; Short=Numb-R
+>Q9Y6R0.1 RecName: Full=Numb-like protein; AltName: Full=Numb-related protein;
+Short=Numb-R [Homo sapiens]
 Length=609
 
  Score = 75.9 bits (185),  Expect = 7e-13, Method: Compositional matrix adjust.
@@ -389,7 +399,7 @@ Query  189  RKMAQAVTLTVAQAFKVAFEFWQVSKEEKE  218
 Sbjct  179  -DSGERLSHAVGCAFAACLERKQ--RREKE  205
 
 
->O08919.3 RecName: Full=Numb-like protein
+>O08919.3 RecName: Full=Numb-like protein [Mus musculus]
 Length=604
 
  Score = 75.9 bits (185),  Expect = 7e-13, Method: Compositional matrix adjust.
@@ -408,8 +418,8 @@ Query  189  RKMAQAVTLTVAQAFKVAFEFWQVSKEEKE  218
 Sbjct  179  -DSGERLSHAVGCAFAACLERKQ--RREKE  205
 
 
->Q7JUY7.1 RecName: Full=PTB domain-containing adapter protein 
-ced-6; AltName: Full=Cell death protein 6 homolog
+>Q7JUY7.1 RecName: Full=PTB domain-containing adapter protein ced-6; AltName:
+Full=Cell death protein 6 homolog [Drosophila melanogaster]
 Length=517
 
  Score = 75.1 bits (183),  Expect = 1e-12, Method: Compositional matrix adjust.
@@ -420,11 +430,11 @@ Query  72   NWTDTRETLLEGM-LFSLKYLGMTLVEQPKGEELSAAAIKRIVATAK------ASGKKLQ  124
 Sbjct  74   NWLHTPEQLISGHAVYLVKFFGNLSVDQPKGIEVVKEAIRKLQFAQQMKKAETGTQEKFK  133
 
 Query  125  KVTLKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQ-------  177
-            K+ + +S +G+ + +  T++++    +Y ISYC  +K   K F++IA++   Q       
+            K+ + +S +G+ + +  T++++    +Y ISYC  +K   K F++IA++   Q
 Sbjct  134  KLEITISIKGVAIQEPRTHKILHQFPLYNISYCADEKGVKKFFSFIAKTVKTQDGSDPTS  193
 
 Query  178  ----------------SLECHAFLCTKRKMAQAVTLTVAQAFKVAFEFWQVSKEEKEKRD  221
-                            S EC  F+    K+A  +TLT+ QAF +A+  +  S  EK    
+                            S EC  F+    K+A  +TLT+ QAF +A+  +  S  EK
 Sbjct  194  NGHANGNGDGSAKVEESHECFVFISN--KLASDITLTIGQAFDLAYRKYMDST-EKTNLS  250
 
 Query  222  KASQE  226
@@ -432,8 +442,8 @@ Query  222  KASQE  226
 Sbjct  251  KAQQQ  255
 
 
->P49757.2 RecName: Full=Protein numb homolog; Short=h-Numb; AltName: 
-Full=Protein S171
+>P49757.2 RecName: Full=Protein numb homolog; Short=h-Numb; AltName: Full=Protein
+S171 [Homo sapiens]
 Length=651
 
  Score = 75.1 bits (183),  Expect = 2e-12, Method: Compositional matrix adjust.
@@ -452,7 +462,7 @@ Query  182  HAFLCTKRKMAQAVTLTVAQAFKVAFEFWQVSKEEKE  218
 Sbjct  142  HCFMAVK-DTGERLSHAVGCAFAACLERKQ--KREKE  175
 
 
->Q2LC84.2 RecName: Full=Protein numb homolog
+>Q2LC84.2 RecName: Full=Protein numb homolog [Rattus norvegicus]
 Length=652
 
  Score = 75.1 bits (183),  Expect = 2e-12, Method: Compositional matrix adjust.
@@ -472,6 +482,7 @@ Sbjct  142  HCFMAVK-DTGERLSHAVGCAFAACLERKQ--KREKE  175
 
 
 >Q9QZS3.1 RecName: Full=Protein numb homolog; Short=m-Nb; Short=m-Numb
+[Mus musculus]
 Length=653
 
  Score = 74.7 bits (182),  Expect = 2e-12, Method: Compositional matrix adjust.
@@ -490,19 +501,19 @@ Query  182  HAFLCTKRKMAQAVTLTVAQAFKVAFEFWQVSKEEKE  218
 Sbjct  142  HCFMAVK-DTGERLSHAVGCAFAACLERKQ--KREKE  175
 
 
->Q8STF6.1 RecName: Full=Dystrophin-like protein 1; AltName: Full=Dyb-1-binding 
-and CAPON-related protein
+>Q8STF6.1 RecName: Full=Dystrophin-like protein 1; AltName: Full=Dyb-1-binding
+and CAPON-related protein [Caenorhabditis elegans]
 Length=887
 
  Score = 71.2 bits (173),  Expect = 3e-11, Method: Compositional matrix adjust.
  Identities = 48/166 (29%), Positives = 78/166 (47%), Gaps = 16/166 (10%)
 
 Query  83   GMLFSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKVSPRGIILTDNLT  142
-            G+ F  KY+G   + +P       AA++R+    KA G K + V + VS  G+ +     
+            G+ F  KY+G   + +P       AA++R+    KA G K + V + VS  G+ +
 Sbjct  33   GIHFEAKYVGSMEIPRPGTRIEIVAAMRRVRYEFKARGIKKRPVDITVSVDGVKVVLQRK  92
 
 Query  143  NQLIENVS------------IYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRK  190
-             Q  + +S            IYRI Y + D    ++F+YIA+   + + +C+ F C+K+ 
+             Q  + +S            IYRI Y + D    ++F+YIA+   + + +C+ F C+K+
 Sbjct  93   KQKEKGLSWDESKLLVMFHPIYRIFYVSHDSQDLQIFSYIARDGASNTFKCNVFKCSKKS  152
 
 Query  191  MAQAVTLTVAQAF----KVAFEFWQVSKEEKEKRDKASQEGGDVLG  232
@@ -510,7 +521,7 @@ Query  191  MAQAVTLTVAQAF----KVAFEFWQVSKEEKEKRDKASQEGGDVLG  232
 Sbjct  153  QAMRVVRTIGQAFEVCHKVAQDQMQEKHEDEAAKSKISMQSEDEAG  198
 
 
->P16554.2 RecName: Full=Protein numb
+>P16554.2 RecName: Full=Protein numb [Drosophila melanogaster]
 Length=556
 
  Score = 68.2 bits (165),  Expect = 2e-10, Method: Compositional matrix adjust.
@@ -533,7 +544,7 @@ Query  249  NLLDLEETAKAPLSTVSANTTNMD  272
 Sbjct  227  SFRQQTLTERLAMATVGTNERSVD  250
 
 
->Q8SXX4.1 RecName: Full=Capon-like protein
+>Q8SXX4.1 RecName: Full=Capon-like protein [Drosophila melanogaster]
 Length=698
 
  Score = 67.4 bits (163),  Expect = 4e-10, Method: Compositional matrix adjust.
@@ -544,7 +555,7 @@ Query  78   ETLLEGMLFSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKVSPRGIIL  137
 Sbjct  23   QAFFHGITFQAKFVGWEEVPRPNTRAEIVQAMRRIRYECKVQNLKKRKVTIHISVNGVRV  82
 
 Query  138  TD--------NLTN--QLIE--NVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFL  185
-                      N TN  + IE  N  IYRI Y + D    K+F+YIA+     + +C  F 
+                      N TN  + IE  N  IYRI Y + D    K+F+YIA+     + +C  F
 Sbjct  83   VLKKRRRKKKNWTNDPEDIELLNHPIYRIFYVSHDSSDLKIFSYIARDASTDTFKCSVFK  142
 
 Query  186  CTKRKMAQAVTLTVAQAFKVAFEFWQVSKEEKEKRDKASQEGGDVLGARQDCTPSLKSLV  245
@@ -556,19 +567,19 @@ Query  246  ATGNLLDLEETAKAPLSTVSANTTNMDEVPRPQALS  281
 Sbjct  183  SSSELLDVEQISEQQLSEDGERGGGDNETPKKEHLA  218
 
 
->Q9XTY6.1 RecName: Full=Numb-related protein 1; AltName: Full=CKA1; 
-AltName: Full=Protein kinase C adapter 1
+>Q9XTY6.1 RecName: Full=Numb-related protein 1; AltName: Full=CKA1; AltName:
+Full=Protein kinase C adapter 1 [Caenorhabditis elegans]
 Length=593
 
  Score = 65.9 bits (159),  Expect = 1e-09, Method: Compositional matrix adjust.
  Identities = 43/140 (31%), Positives = 76/140 (54%), Gaps = 13/140 (9%)
 
 Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKVSPRGIILTDNLTNQ-  144
-            F++KYLG   V + +G ++   A+K +    KAS +K  K  L VS  G+ + D   ++ 
+            F++KYLG   V + +G ++   A+K +    KAS +K  K  L VS  G+ + D   ++
 Sbjct  108  FNVKYLGSVEVYESRGMQVCEGALKSL----KASRRKPVKAVLYVSGDGLRVVDQGNSRG  163
 
 Query  145  LIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFK  204
-            L+ + +I ++S+C  D+  DK FAYI +   ++   CH FL TK +  + ++  V  AF 
+            L+ + +I ++S+C  D+  DK FAYI +   ++   CH FL TK +  + ++  V  AF
 Sbjct  164  LLVDQTIEKVSFCAPDRQTDKGFAYICRDGASRRWMCHGFLATK-ETGERLSHAVGCAFS  222
 
 Query  205  VAFEFWQVSKEEKEKRDKAS  224
@@ -576,14 +587,14 @@ Query  205  VAFEFWQVSKEEKEKRDKAS  224
 Sbjct  223  ICL-------EKKKRRDEET  235
 
 
->Q8CJH2.1 RecName: Full=Disabled homolog 1
+>Q8CJH2.1 RecName: Full=Disabled homolog 1 [Rattus norvegicus]
 Length=555
 
  Score = 65.5 bits (158),  Expect = 1e-09, Method: Compositional matrix adjust.
  Identities = 42/146 (29%), Positives = 75/146 (51%), Gaps = 10/146 (7%)
 
 Query  82   EGMLFSLKYLGMTLVEQPKGEEL---SAAAIKRIVATAKASGKKLQKVTLKVSPRGIILT  138
-            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI + 
+            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI +
 Sbjct  38   EGVRYKAKLIGIDEVSAARGDKLCQDSMMKLKGVVAGARSKGEHKQKIFLTISFGGIKIF  97
 
 Query  139  DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKR-KMAQAVTL  197
@@ -595,14 +606,14 @@ Query  198  TVAQAFKVAFEFWQVSK-EEKEKRDK  222
 Sbjct  153  DLRDLFQLIYELKQREELEKKAQKDK  178
 
 
->P97318.2 RecName: Full=Disabled homolog 1
+>P97318.2 RecName: Full=Disabled homolog 1 [Mus musculus]
 Length=588
 
  Score = 65.1 bits (157),  Expect = 2e-09, Method: Compositional matrix adjust.
  Identities = 42/146 (29%), Positives = 75/146 (51%), Gaps = 10/146 (7%)
 
 Query  82   EGMLFSLKYLGMTLVEQPKGEEL---SAAAIKRIVATAKASGKKLQKVTLKVSPRGIILT  138
-            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI + 
+            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI +
 Sbjct  38   EGVRYKAKLIGIDEVSAARGDKLCQDSMMKLKGVVAGARSKGEHKQKIFLTISFGGIKIF  97
 
 Query  139  DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKR-KMAQAVTL  197
@@ -614,14 +625,14 @@ Query  198  TVAQAFKVAFEFWQVSK-EEKEKRDK  222
 Sbjct  153  DLRDLFQLIYELKQREELEKKAQKDK  178
 
 
->O75553.3 RecName: Full=Disabled homolog 1
+>O75553.3 RecName: Full=Disabled homolog 1 [Homo sapiens]
 Length=588
 
  Score = 64.7 bits (156),  Expect = 2e-09, Method: Compositional matrix adjust.
  Identities = 42/146 (29%), Positives = 75/146 (51%), Gaps = 10/146 (7%)
 
 Query  82   EGMLFSLKYLGMTLVEQPKGEEL---SAAAIKRIVATAKASGKKLQKVTLKVSPRGIILT  138
-            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI + 
+            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI +
 Sbjct  38   EGVRYKAKLIGIDEVSAARGDKLCQDSMMKLKGVVAGARSKGEHKQKIFLTISFGGIKIF  97
 
 Query  139  DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKR-KMAQAVTL  197
@@ -633,8 +644,8 @@ Query  198  TVAQAFKVAFEFWQVSK-EEKEKRDK  222
 Sbjct  153  DLRDLFQLIYELKQREELEKKAQKDK  178
 
 
->O76337.1 RecName: Full=Cell death protein 6; AltName: Full=Candidate 
-adapter protein ced-6
+>O76337.1 RecName: Full=Cell death protein 6; AltName: Full=Candidate adapter
+protein ced-6 [Caenorhabditis elegans]
 Length=492
 
  Score = 64.3 bits (155),  Expect = 3e-09, Method: Compositional matrix adjust.
@@ -653,14 +664,14 @@ Query  171  AQSQHNQSL-ECHAFLCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  153  ARAEGASGKPSCYAF--TSEKLAEDITLTIGEAFDLAYKRF  191
 
 
->Q9BGX5.1 RecName: Full=Disabled homolog 1
+>Q9BGX5.1 RecName: Full=Disabled homolog 1 [Macaca fascicularis]
 Length=555
 
  Score = 63.9 bits (154),  Expect = 4e-09, Method: Compositional matrix adjust.
  Identities = 42/146 (29%), Positives = 74/146 (51%), Gaps = 10/146 (7%)
 
 Query  82   EGMLFSLKYLGMTLVEQPKGEEL---SAAAIKRIVATAKASGKKLQKVTLKVSPRGIILT  138
-            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI + 
+            EG+ +  K +G+  V   +G++L   S   +K +VA A++ G+  QK+ L +S  GI +
 Sbjct  38   EGVRYKAKLIGIDEVSAARGDKLCQDSMMKLKGVVAGARSKGEHKQKIFLTISFGGIKIF  97
 
 Query  139  DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKR-KMAQAVTL  197
@@ -672,8 +683,8 @@ Query  198  TVAQAFKVAFEFWQVSK-EEKEKRDK  222
 Sbjct  153  DLRDLFQLIYELKQREELEKKAQKDK  178
 
 
->A5PMU4.1 RecName: Full=Ankyrin repeat and sterile alpha motif 
-domain-containing protein 1B
+>A5PMU4.1 RecName: Full=Ankyrin repeat and sterile alpha motif domain-containing
+protein 1B [Danio rerio]
 Length=1280
 
  Score = 63.9 bits (154),  Expect = 7e-09, Method: Compositional matrix adjust.
@@ -688,14 +699,14 @@ Query  146   IENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKV  205
 Sbjct  1135  IAEHEIRNISCAAQDPEDLSTFAYITKDLKSSHHYCHVFTAFDVNLAYEIILTLGQAFEV  1194
 
 Query  206   AFEF  209
-             A++ 
+             A++
 Sbjct  1195  AYQL  1198
 
 
->Q8BIZ1.3 RecName: Full=Ankyrin repeat and sterile alpha motif 
-domain-containing protein 1B; AltName: Full=Amyloid-beta protein 
-intracellular domain-associated protein 1; Short=AIDA-1; 
-AltName: Full=E2A-PBX1-associated protein; Short=EB-1
+>Q8BIZ1.3 RecName: Full=Ankyrin repeat and sterile alpha motif domain-containing
+protein 1B; AltName: Full=Amyloid-beta protein intracellular
+domain-associated protein 1; Short=AIDA-1; AltName:
+Full=E2A-PBX1-associated protein; Short=EB-1 [Mus musculus]
 Length=1259
 
  Score = 63.5 bits (153),  Expect = 8e-09, Method: Compositional matrix adjust.
@@ -710,14 +721,14 @@ Query  147   ENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVA  206
 Sbjct  1125  AEHEIRNISCAAQDPEDLSTFAYITKDLKSNHHYCHVFTAFDVNLAYEIILTLGQAFEVA  1184
 
 Query  207   FEF  209
-             ++ 
+             ++
 Sbjct  1185  YQL  1187
 
 
->Q7Z6G8.2 RecName: Full=Ankyrin repeat and sterile alpha motif 
-domain-containing protein 1B; AltName: Full=Amyloid-beta protein 
-intracellular domain-associated protein 1; Short=AIDA-1; 
-AltName: Full=E2A-PBX1-associated protein; Short=EB-1
+>Q7Z6G8.2 RecName: Full=Ankyrin repeat and sterile alpha motif domain-containing
+protein 1B; AltName: Full=Amyloid-beta protein intracellular
+domain-associated protein 1; Short=AIDA-1; AltName:
+Full=E2A-PBX1-associated protein; Short=EB-1 [Homo sapiens]
 Length=1248
 
  Score = 62.8 bits (151),  Expect = 1e-08, Method: Compositional matrix adjust.
@@ -732,14 +743,14 @@ Query  147   ENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVA  206
 Sbjct  1126  AEHEIRNISCAAQDPEDLSTFAYITKDLKSNHHYCHVFTAFDVNLAYEIILTLGQAFEVA  1185
 
 Query  207   FEF  209
-             ++ 
+             ++
 Sbjct  1186  YQL  1188
 
 
->P0C6S7.1 RecName: Full=Ankyrin repeat and sterile alpha motif 
-domain-containing protein 1B; AltName: Full=Amyloid-beta protein 
-intracellular domain-associated protein 1; Short=AIDA-1; 
-AltName: Full=E2A-PBX1-associated protein; Short=EB-1
+>P0C6S7.1 RecName: Full=Ankyrin repeat and sterile alpha motif domain-containing
+protein 1B; AltName: Full=Amyloid-beta protein intracellular
+domain-associated protein 1; Short=AIDA-1; AltName:
+Full=E2A-PBX1-associated protein; Short=EB-1 [Rattus norvegicus]
 Length=1260
 
  Score = 62.8 bits (151),  Expect = 1e-08, Method: Compositional matrix adjust.
@@ -754,11 +765,11 @@ Query  147   ENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVA  206
 Sbjct  1126  AEHEIRNISCAAQDPEDLSTFAYITKDLKSNHHYCHVFTAFDVNLAYEIILTLGQAFEVA  1185
 
 Query  207   FEF  209
-             ++ 
+             ++
 Sbjct  1186  YQL  1188
 
 
->Q8BUP8.1 RecName: Full=Protein FAM43A
+>Q8BUP8.1 RecName: Full=Protein FAM43A [Mus musculus]
 Length=424
 
  Score = 60.8 bits (146),  Expect = 3e-08, Method: Compositional matrix adjust.
@@ -777,14 +788,14 @@ Query  200  AQAFKVAF-EFWQVSKEEKEKRDKASQEGGDVLGARQDCTPSLKSLVATG  248
 Sbjct  189  YQTSANALAEFKRL-----KRRDDARHQQQELVGAHTIPLVPLRKLLLHG  233
 
 
->P98081.2 RecName: Full=Protein disabled
+>P98081.2 RecName: Full=Protein disabled [Drosophila melanogaster]
 Length=2224
 
  Score = 61.2 bits (147),  Expect = 4e-08, Method: Compositional matrix adjust.
  Identities = 43/165 (26%), Positives = 74/165 (45%), Gaps = 19/165 (12%)
 
 Query  54   SLAKQSWGGGG--------RHRKLPENWTDTRETLLEGMLFSLKYLGMTLVEQPKGEELS  105
-            SLA    GG G        +HR  P  +        +G+ F  K +G+  V + +G+ + 
+            SLA    GG G        +HR  P  +        +G+ F  K +G+  V + +G+ +
 Sbjct  17   SLASTFGGGSGAAEETNYAKHRNDPGRF------FGDGVQFKAKLIGILEVGEARGDRMC  70
 
 Query  106  AAAIKRIVATAKASGKKLQKVTLKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDK  165
@@ -792,14 +803,14 @@ Query  106  AAAIKRIVATAKASGKKLQKVTLKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDK  165
 Sbjct  71   QEALQDLKMAIRAAGEHKQRITIHVTIDGLRLRDEKTGDSLYHHPVHKISFIAQDMTDSR  130
 
 Query  166  VFAYIAQSQHNQSLECHAFLCTK-RKMAQAVTLTVAQAFKVAFEF  209
-             F YI  S  +     H F   K  K A  V L +   F+V FE 
+             F YI  S  +     H F   K  K A  V L +   F+V FE
 Sbjct  131  AFGYIFGSPDS----GHRFFGIKTDKAASQVVLAMRDLFQVVFEL  171
 
 
->O75052.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal 
-nitric oxide synthase protein; AltName: Full=C-terminal PDZ 
-ligand of neuronal nitric oxide synthase protein; AltName: 
-Full=Nitric oxide synthase 1 adaptor protein
+>O75052.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal nitric
+oxide synthase protein; AltName: Full=C-terminal PDZ ligand
+of neuronal nitric oxide synthase protein; AltName: Full=Nitric
+oxide synthase 1 adaptor protein [Homo sapiens]
 Length=506
 
  Score = 60.5 bits (145),  Expect = 4e-08, Method: Compositional matrix adjust.
@@ -814,7 +825,7 @@ Query  113  VATAKASGKKLQKVTLKVSPRGIIL----------------TDNLTNQLIENVSIYRISY  156
 Sbjct  59   RYEFKAKNIKKKKVSIMVSVDGVKVILKKKKKLLLLQKKEWTWDESKMLVMQDPIYRIFY  118
 
 Query  157  CTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVAFEFWQVSKEE  216
-             + D    K+F+YIA+   +    C+ F   K+  A  +  TV QAF+V     ++S + 
+             + D    K+F+YIA+   +    C+ F   K+  A  +  TV QAF+V     ++S +
 Sbjct  119  VSHDSQDLKIFSYIARDGASNIFRCNVFKSKKKSQAMRIVRTVGQAFEVCH---KLSLQH  175
 
 Query  217  KEKRDKASQEGGDVLGARQDCTPSLKSLVATGNLLDLEETAKAPLSTVSANTTNMD--EV  274
@@ -826,10 +837,10 @@ Query  275  PRP--QALSGSSVVWELDDGLDEAFSRLAQSRTNPQ  308
 Sbjct  224  PLPGNDVLEFSRGVTDLDAVGKEGGSHTGSKVSHPQ  259
 
 
->Q9D3A8.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal 
-nitric oxide synthase protein; AltName: Full=C-terminal PDZ 
-ligand of neuronal nitric oxide synthase protein; AltName: 
-Full=Nitric oxide synthase 1 adaptor protein
+>Q9D3A8.3 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal nitric
+oxide synthase protein; AltName: Full=C-terminal PDZ ligand
+of neuronal nitric oxide synthase protein; AltName: Full=Nitric
+oxide synthase 1 adaptor protein [Mus musculus]
 Length=503
 
  Score = 59.7 bits (143),  Expect = 7e-08, Method: Compositional matrix adjust.
@@ -840,7 +851,7 @@ Query  53   PSLAKQSWGGGGRHRKLPENWTDTRETLLEGMLFSLKYLGMTLVEQPKGEELSAAAIKRI  112
 Sbjct  2    PSKTKYNLVDDGHDLRIPLHNEDAFQ---HGISFEAKYVGSLDVPRPNSRVEIVAAMRRI  58
 
 Query  113  VATAKASGKKLQKVTLKVSPRGIIL-----------TDNLTNQLIENVSIYRISYCTADK  161
-                KA   K +KV++ VS  G+ +           T + +  L+    IYRI Y + D 
+                KA   K +KV++ VS  G+ +           T + +  L+    IYRI Y + D
 Sbjct  59   RYEFKAKNIKKKKVSIMVSVDGVKVILKKKKKKKEWTWDESKMLVMQDPIYRIFYVSHDS  118
 
 Query  162  MHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKV  205
@@ -848,7 +859,7 @@ Query  162  MHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKV  205
 Sbjct  119  QDLKIFSYIARDGASNIFRCNVFKSKKKSQAMRIVRTVGQAFEV  162
 
 
->Q8N2R8.2 RecName: Full=Protein FAM43A
+>Q8N2R8.2 RecName: Full=Protein FAM43A [Homo sapiens]
 Length=423
 
  Score = 59.3 bits (142),  Expect = 8e-08, Method: Compositional matrix adjust.
@@ -867,10 +878,10 @@ Query  200  AQAFKVAF-EFWQVSKEEKEKRDKASQEGGDVLGA  233
 Sbjct  189  YQTSANALAEFKRL-----KRRDDARHQQQELVGA  218
 
 
->O54960.1 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal 
-nitric oxide synthase protein; AltName: Full=C-terminal PDZ 
-ligand of neuronal nitric oxide synthase protein; AltName: 
-Full=Nitric oxide synthase 1 adaptor protein
+>O54960.1 RecName: Full=Carboxyl-terminal PDZ ligand of neuronal nitric
+oxide synthase protein; AltName: Full=C-terminal PDZ ligand
+of neuronal nitric oxide synthase protein; AltName: Full=Nitric
+oxide synthase 1 adaptor protein [Rattus norvegicus]
 Length=503
 
  Score = 59.3 bits (142),  Expect = 9e-08, Method: Compositional matrix adjust.
@@ -881,7 +892,7 @@ Query  53   PSLAKQSWGGGGRHRKLPENWTDTRETLLEGMLFSLKYLGMTLVEQPKGEELSAAAIKRI  112
 Sbjct  2    PSKTKYNLVDDGHDLRIPLHNEDAFQ---HGISFEAKYVGSLDVPRPNSRVEIVAAMRRI  58
 
 Query  113  VATAKASGKKLQKVTLKVSPRGIIL-----------TDNLTNQLIENVSIYRISYCTADK  161
-                KA   K +KV++ VS  G+ +           T + +  L+    IYRI Y + D 
+                KA   K +KV++ VS  G+ +           T + +  L+    IYRI Y + D
 Sbjct  59   RYEFKAKNIKKKKVSIMVSVDGVKVILKKKKKKKEWTWDESKMLVMQDPIYRIFYVSHDS  118
 
 Query  162  MHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKV  205
@@ -889,54 +900,54 @@ Query  162  MHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKV  205
 Sbjct  119  QDLKIFSYIARDGASNIFRCNVFKSKKKSQAMRIVRTVGQAFEV  162
 
 
->P59672.3 RecName: Full=Ankyrin repeat and SAM domain-containing 
-protein 1A; AltName: Full=Odin
+>P59672.3 RecName: Full=Ankyrin repeat and SAM domain-containing protein
+1A; AltName: Full=Odin [Mus musculus]
 Length=1150
 
  Score = 56.2 bits (134),  Expect = 1e-06, Method: Compositional matrix adjust.
  Identities = 44/171 (26%), Positives = 72/171 (42%), Gaps = 18/171 (11%)
 
 Query  44    SAGRALIRSPSLAK-----QSWGGGGRHRKLPENWTDTRETLLEGMLFSLKYLGMTLVEQ  98
-             S  +  +R PSLA      QSW    +H+  PE        + E   +   YLG  L++ 
+             S  +  +R PSLA      QSW    +H+  PE        + E   +   YLG  L++
 Sbjct  923   SETKLTLRPPSLAAPYAPVQSW----QHQ--PEKL------IFESCGYEANYLGSMLIKD  970
 
 Query  99    PKGEELSAAAIKRIVATAKASGKKLQKVTLKVSPRGIILTDNLTNQLIENVSIYRISYCT  158
-              +G E +  A  ++  + +   KK+  + L ++ +G+   D     +I    I  IS   
+              +G E +  A  ++  + +   KK+  + L ++ +G+   D     +I    I  IS
 Sbjct  971   LRGTESTQDACAKMRKSTEHM-KKIPTIILSITYKGVKFIDASNKNVIAEHEIRNISCAA  1029
 
 Query  159   ADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVAFEF  209
-              D      FAYI +        CH F      +   + LT+ QAF+VA++ 
+              D      FAYI +        CH F      +   + LT+ QAF+VA++
 Sbjct  1030  QDPEDLCTFAYITKDLQTSHHYCHVFSTVDVNLTYEIILTLGQAFEVAYQL  1080
 
 
->Q92625.4 RecName: Full=Ankyrin repeat and SAM domain-containing 
-protein 1A; AltName: Full=Odin
+>Q92625.4 RecName: Full=Ankyrin repeat and SAM domain-containing protein
+1A; AltName: Full=Odin [Homo sapiens]
 Length=1134
 
  Score = 56.2 bits (134),  Expect = 1e-06, Method: Compositional matrix adjust.
  Identities = 35/140 (25%), Positives = 61/140 (44%), Gaps = 2/140 (1%)
 
 Query  71    ENWTDTRETLL-EGMLFSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLK  129
-             ++W    E L+ E   +   YLG  L++  +G E +  A  ++  + +   KK+  + L 
+             ++W    E L+ E   +   YLG  L++  +G E +  A  ++  + +   KK+  + L
 Sbjct  926   QSWQHQPEKLIFESCGYEANYLGSMLIKDLRGTESTQDACAKMRKSTEHM-KKIPTIILS  984
 
 Query  130   VSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKR  189
-             ++ +G+   D     +I    I  IS    D      FAYI +        CH F     
+             ++ +G+   D     +I    I  IS    D      FAYI +        CH F
 Sbjct  985   ITYKGVKFIDASNKNVIAEHEIRNISCAAQDPEDLCTFAYITKDLQTSHHYCHVFSTVDV  1044
 
 Query  190   KMAQAVTLTVAQAFKVAFEF  209
-              +   + LT+ QAF+VA++ 
+              +   + LT+ QAF+VA++
 Sbjct  1045  NLTYEIILTLGQAFEVAYQL  1064
 
 
->Q6ZT52.1 RecName: Full=Protein FAM43B
+>Q6ZT52.1 RecName: Full=Protein FAM43B [Homo sapiens]
 Length=329
 
  Score = 52.4 bits (124),  Expect = 1e-05, Method: Compositional matrix adjust.
  Identities = 39/152 (26%), Positives = 66/152 (43%), Gaps = 13/152 (9%)
 
 Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKVSPRGIILT-------  138
-            +++ YLG  +    KG+  +  A+ +I A     G    K+TL   P GI +        
+            +++ YLG  +    KG+  +  A+ +I A     G    K+TL   P GI +
 Sbjct  72   YTVWYLGNAVTLHAKGDGCTDDAVGKIWARCGPGGGTKMKLTL--GPHGIRMQPCERSAA  129
 
 Query  139  -DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQS---LECHAFLCTKRKMAQA  194
@@ -944,93 +955,93 @@ Query  139  -DNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQS---LECHAFLCTKRKMAQA  194
 Sbjct  130  GGSGGRRPAHAYLLPRITYCTADGRHPRVFAWVYRHQARHKAVVLRCHAVLLARAHKARA  189
 
 Query  195  VTLTVAQAFKVAFEFWQVSKEEKEKRDKASQE  226
-            +   + Q    AF  ++  + + + R    Q 
+            +   + Q    AF  ++  + + + R    Q
 Sbjct  190  LARLLRQTALAAFSDFKRLQRQSDARHVRQQH  221
 
 
->P98082.3 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor 
-molecule disabled-2; AltName: Full=Differentially expressed 
-in ovarian carcinoma 2; Short=DOC-2; AltName: Full=Differentially-expressed 
-protein 2
+>P98082.3 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor molecule
+disabled-2; AltName: Full=Differentially expressed in ovarian
+carcinoma 2; Short=DOC-2; AltName: Full=Differentially-expressed
+protein 2 [Homo sapiens]
 Length=770
 
  Score = 52.0 bits (123),  Expect = 2e-05, Method: Compositional matrix adjust.
  Identities = 43/187 (23%), Positives = 85/187 (45%), Gaps = 16/187 (9%)
 
 Query  76   TRETLL-----EGMLFSLKYLGMTLVEQPKGEELSAAA---IKRIVATAKASGKKLQKVT  127
-            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++ 
+            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++
 Sbjct  35   TDEYLLARFKGDGVKYKAKLIGIDDVPDARGDKMSQDSMMKLKGMAAAGRSQGQHKQRIW  94
 
 Query  128  LKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCT  187
-            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F   
+            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F
 Sbjct  95   VNISLSGIKIIDEKTGVIEHEHPVNKISFIARDVTDNRAFGYVCGGEGQ-----HQFFAI  149
 
 Query  188  KR-KMAQAVTLTVAQAFKVAFEFWQVSKEEKEKR--DKASQEGGDVLGARQDCTPSLKSL  244
-            K  + A+ + + +   F+V +   +  +E+K+     KA + G + L    D T  LKS 
+            K  + A+ + + +   F+V +   +  +E+K+     KA + G + L    D T  LKS
 Sbjct  150  KTGQQAEPLVVDLKDLFQVIYNVKKKEEEKKKIEEASKAVENGSEALMILDDQTNKLKSG  209
 
 Query  245  VATGNLL  251
-            V   +L 
+            V   +L
 Sbjct  210  VDQMDLF  216
 
 
->P98078.2 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor 
-molecule disabled-2; AltName: Full=Differentially expressed 
-in ovarian carcinoma 2; Short=DOC-2; AltName: Full=Mitogen-responsive 
-phosphoprotein
+>P98078.2 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor molecule
+disabled-2; AltName: Full=Differentially expressed in ovarian
+carcinoma 2; Short=DOC-2; AltName: Full=Mitogen-responsive
+phosphoprotein [Mus musculus]
 Length=766
 
  Score = 49.3 bits (116),  Expect = 1e-04, Method: Compositional matrix adjust.
  Identities = 40/187 (21%), Positives = 84/187 (45%), Gaps = 16/187 (9%)
 
 Query  76   TRETLL-----EGMLFSLKYLGMTLVEQPKGEELSAAA---IKRIVATAKASGKKLQKVT  127
-            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++ 
+            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++
 Sbjct  35   TDEYLLARFKGDGVKYKAKLIGIDDVPDARGDKMSQDSMMKLKGMAAAGRSQGQHKQRIW  94
 
 Query  128  LKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCT  187
-            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F   
+            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F
 Sbjct  95   VNISLSGIKIIDEKTGVIEHEHPVNKISFIARDVTDNRAFGYVCGGEGQ-----HQFFAI  149
 
 Query  188  KR-KMAQAVTLTVAQAFKVAFEFWQVSKEEKEKR--DKASQEGGDVLGARQDCTPSLKSL  244
-            K  + A+ + + +   F+V +   +  +++K+    +KA + G + L    D    LK  
+            K  + A+ + + +   F+V +   +  +++K+    +KA + G + L    D    LK
 Sbjct  150  KTGQQAEPLVVDLKDLFQVIYNVKKKEEDKKKVEEANKAEENGSEALMTLDDQANKLKLG  209
 
 Query  245  VATGNLL  251
-            V   +L 
+            V   +L
 Sbjct  210  VDQMDLF  216
 
 
->O88797.1 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor 
-molecule disabled-2; AltName: Full=C9; AltName: Full=Differentially 
-expressed in ovarian carcinoma 2; Short=DOC-2; AltName: 
-Full=Mitogen-responsive phosphoprotein
+>O88797.1 RecName: Full=Disabled homolog 2; AltName: Full=Adaptor molecule
+disabled-2; AltName: Full=C9; AltName: Full=Differentially
+expressed in ovarian carcinoma 2; Short=DOC-2; AltName: Full=Mitogen-responsive
+phosphoprotein [Rattus norvegicus]
 Length=768
 
  Score = 49.3 bits (116),  Expect = 2e-04, Method: Compositional matrix adjust.
  Identities = 41/187 (22%), Positives = 84/187 (45%), Gaps = 16/187 (9%)
 
 Query  76   TRETLL-----EGMLFSLKYLGMTLVEQPKGEELSAAA---IKRIVATAKASGKKLQKVT  127
-            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++ 
+            T E LL     +G+ +  K +G+  V   +G+++S  +   +K + A  ++ G+  Q++
 Sbjct  35   TDEYLLARFKGDGVKYKAKLIGIDDVPDARGDKMSQDSMMKLKGMAAAGRSQGQHKQRIW  94
 
 Query  128  LKVSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCT  187
-            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F   
+            + +S  GI + D  T  +     + +IS+   D   ++ F Y+   +       H F
 Sbjct  95   VNISLSGIKIIDEKTGVIEHEHPVNKISFIARDVTDNRAFGYVCGGEGQ-----HQFFAI  149
 
 Query  188  KR-KMAQAVTLTVAQAFKVAFEFWQVSKEEKEKR--DKASQEGGDVLGARQDCTPSLKSL  244
-            K  + A+ + + +   F+V +   +  +E+K+    +KA + G + L    D    LK  
+            K  + A+ + + +   F+V +   +  +E+K+    +KA + G + L    D    LK
 Sbjct  150  KTGQQAEPLVVDLKDLFQVIYNVKKKEEEKKKVEEANKAEENGSEALMTLDDQANKLKLG  209
 
 Query  245  VATGNLL  251
-            V   +L 
+            V   +L
 Sbjct  210  VDQMDLF  216
 
 
->Q9WVI9.2 RecName: Full=C-Jun-amino-terminal kinase-interacting 
-protein 1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: 
-Full=Islet-brain-1; Short=IB-1; AltName: Full=JNK MAP 
-kinase scaffold protein 1; AltName: Full=Mitogen-activated 
-protein kinase 8-interacting protein 1
+>Q9WVI9.2 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: Full=Islet-brain-1;
+Short=IB-1; AltName: Full=JNK MAP kinase
+scaffold protein 1; AltName: Full=Mitogen-activated protein
+kinase 8-interacting protein 1 [Mus musculus]
 Length=707
 
  Score = 45.8 bits (107),  Expect = 0.002, Method: Compositional matrix adjust.
@@ -1049,19 +1060,19 @@ Query  195  VTLTVAQAFKVAFEF  209
 Sbjct  683  VGRAFQQFYKQFVEY  697
 
 
->Q9R237.2 RecName: Full=C-Jun-amino-terminal kinase-interacting 
-protein 1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: 
-Full=Islet-brain-1; Short=IB-1; AltName: Full=JIP-1-related 
-protein; Short=JRP; AltName: Full=JNK MAP kinase scaffold 
-protein 1; AltName: Full=Mitogen-activated protein kinase 
-8-interacting protein 1
+>Q9R237.2 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: Full=Islet-brain-1;
+Short=IB-1; AltName: Full=JIP-1-related protein;
+Short=JRP; AltName: Full=JNK MAP kinase scaffold protein
+1; AltName: Full=Mitogen-activated protein kinase 8-interacting
+protein 1 [Rattus norvegicus]
 Length=708
 
  Score = 44.7 bits (104),  Expect = 0.004, Method: Compositional matrix adjust.
  Identities = 30/135 (22%), Positives = 60/135 (44%), Gaps = 11/135 (8%)
 
 Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASG--KKLQKVTLKVSPRGIIL------  137
-            F +K+LG   V   KG ++  AA+++I  T + +          L++S RG+ +      
+            F +K+LG   V   KG ++  AA+++I  T + +          L++S RG+ +
 Sbjct  564  FRVKFLGSVQVPYHKGNDVLCAAMQKIATTRRLTVHFNPPSSCVLEISVRGVKIGVKADE  623
 
 Query  138  -TDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLC--TKRKMAQA  194
@@ -1073,17 +1084,17 @@ Query  195  VTLTVAQAFKVAFEF  209
 Sbjct  684  VGRAFQQFYKQFVEY  698
 
 
->O70142.2 RecName: Full=SHC-transforming protein 2; AltName: Full=Protein 
-Sck; AltName: Full=SH2 domain protein C2; AltName: 
-Full=Src homology 2 domain-containing-transforming protein 
-C2
+>O70142.2 RecName: Full=SHC-transforming protein 2; AltName: Full=Protein
+Sck; AltName: Full=SH2 domain protein C2; AltName: Full=Src
+homology 2 domain-containing-transforming protein C2 [Rattus
+norvegicus]
 Length=573
 
  Score = 44.7 bits (104),  Expect = 0.004, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 46/86 (53%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +++ +S  G+ L+   T Q+I N  +  IS+ +  D       AY+A+   NQ   CH  
+            +++ +S  G+ L+   T Q+I N  +  IS+ +  D       AY+A+   NQ   CH
 Sbjct  200  ISVNISVDGLNLSVPATRQIIANHHMQSISFASGGDTDMTDYVAYVAKDPINQR-ACHIL  258
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1091,11 +1102,11 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  259  ECCE-GLAQSVISTVGQAFELRFKQY  283
 
 
->Q9UQF2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting 
-protein 1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: 
-Full=Islet-brain 1; Short=IB-1; AltName: Full=JNK MAP 
-kinase scaffold protein 1; AltName: Full=Mitogen-activated 
-protein kinase 8-interacting protein 1
+>Q9UQF2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+1; Short=JIP-1; Short=JNK-interacting protein 1; AltName: Full=Islet-brain
+1; Short=IB-1; AltName: Full=JNK MAP kinase
+scaffold protein 1; AltName: Full=Mitogen-activated protein
+kinase 8-interacting protein 1 [Homo sapiens]
 Length=711
 
  Score = 44.3 bits (103),  Expect = 0.005, Method: Compositional matrix adjust.
@@ -1114,18 +1125,18 @@ Query  195  VTLTVAQAFKVAFEF  209
 Sbjct  687  VGRAFQQFYKQFVEY  701
 
 
->Q8BMC3.3 RecName: Full=SHC-transforming protein 2; AltName: Full=Protein 
-Sck; AltName: Full=Protein Sli; AltName: Full=SHC-transforming 
-protein B; AltName: Full=Src homology 2 domain-containing-transforming 
-protein C2; Short=SH2 domain protein 
-C2
+>Q8BMC3.3 RecName: Full=SHC-transforming protein 2; AltName: Full=Protein
+Sck; AltName: Full=Protein Sli; AltName: Full=SHC-transforming
+protein B; AltName: Full=Src homology 2 domain-containing-transforming
+protein C2; Short=SH2 domain protein C2 [Mus
+musculus]
 Length=573
 
  Score = 44.3 bits (103),  Expect = 0.005, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 46/86 (53%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +++ +S  G+ L+   T Q+I N  +  IS+ +  D       AY+A+   NQ   CH  
+            +++ +S  G+ L+   T Q+I N  +  IS+ +  D       AY+A+   NQ   CH
 Sbjct  200  ISVNISVDGLNLSVPATRQIIANHHMQSISFASGGDTDMTDYVAYVAKDPINQR-ACHIL  258
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1133,7 +1144,7 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  259  ECCE-GLAQSVISTVGQAFELRFKQY  283
 
 
->A6H6A9.1 RecName: Full=Rab GTPase-activating protein 1-like
+>A6H6A9.1 RecName: Full=Rab GTPase-activating protein 1-like [Mus musculus]
 Length=815
 
  Score = 43.1 bits (100),  Expect = 0.012, Method: Compositional matrix adjust.
@@ -1144,7 +1155,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  127  DSVLFNKLTYLGCMKVSSPRSE----VEALRAMATMRASSQYPFAVTLYVPNVPEGSVRI  182
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMA  192
-             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++  
+             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++
 Sbjct  183  IDQSSNVEIASFPIYKVLFCA--RGHDGTAESNCFAFTESSHGSEEFQIHVFSCEIKEAV  240
 
 Query  193  QAVTLTVAQAFK  204
@@ -1152,18 +1163,18 @@ Query  193  QAVTLTVAQAFK  204
 Sbjct  241  SRILYSFCTAFK  252
 
 
->Q6S5L9.1 RecName: Full=SHC-transforming protein 4; AltName: Full=Rai-like 
-protein; Short=RaLP; AltName: Full=SHC-transforming 
-protein D; Short=mShcD; AltName: Full=Src homology 2 domain-containing-transforming 
-protein C4; Short=SH2 domain protein 
-C4
+>Q6S5L9.1 RecName: Full=SHC-transforming protein 4; AltName: Full=Rai-like
+protein; Short=RaLP; AltName: Full=SHC-transforming protein
+D; Short=mShcD; AltName: Full=Src homology 2 domain-containing-transforming
+protein C4; Short=SH2 domain protein C4
+[Mus musculus]
 Length=626
 
  Score = 42.4 bits (98),  Expect = 0.019, Method: Compositional matrix adjust.
  Identities = 38/114 (33%), Positives = 52/114 (46%), Gaps = 12/114 (11%)
 
 Query  107  AAIKRIVATAKASGKKLQKVTLKVSPRGIILT--------DNLTNQ-LIENVSIYRISYC  157
-             AIK+  A  K     L K  L+ S   I LT         NL NQ +I N  +  IS+ 
+             AIK+  A  K     L K  L+ S   I LT         NL NQ +I N  +  IS+
 Sbjct  234  GAIKKRKAPVKFLTTVLGKSNLQFSGMNIKLTVSTSSLTLMNLDNQQIIANHQMQSISFA  293
 
 Query  158  TA-DKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1171,7 +1182,7 @@ Query  158  TA-DKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  294  SGGDPDTTDYVAYVAKDPVNQR-ACHILEC-RSGMAQDVISTIGQAFELRFKQY  345
 
 
->Q5R372.1 RecName: Full=Rab GTPase-activating protein 1-like
+>Q5R372.1 RecName: Full=Rab GTPase-activating protein 1-like [Homo sapiens]
 Length=815
 
  Score = 42.4 bits (98),  Expect = 0.021, Method: Compositional matrix adjust.
@@ -1182,7 +1193,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  127  DSVLFNKLTYLGCMKVSSPRNE----VEALRAMATMKSSSQYPFPVTLYVPNVPEGSVRI  182
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMA  192
-             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++  
+             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++
 Sbjct  183  IDQSSNVEIASFPIYKVLFCA--RGHDGTTESNCFAFTESSHGSEEFQIHVFSCEIKEAV  240
 
 Query  193  QAVTLTVAQAFK  204
@@ -1190,7 +1201,7 @@ Query  193  QAVTLTVAQAFK  204
 Sbjct  241  SRILYSFCTAFK  252
 
 
->Q5RCW6.1 RecName: Full=Rab GTPase-activating protein 1-like
+>Q5RCW6.1 RecName: Full=Rab GTPase-activating protein 1-like [Pongo abelii]
 Length=815
 
  Score = 42.0 bits (97),  Expect = 0.025, Method: Compositional matrix adjust.
@@ -1201,7 +1212,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  127  DSVLFNKLTYLGCMKVSSPRNE----VEALRAMATMKSSSQYPFPVTLYVPNVPEGSVRI  182
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMA  192
-             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++  
+             D  +N  I +  IY++ +C   + HD       FA+   S  ++  + H F C  ++
 Sbjct  183  IDQSSNVEIASFPIYKVLFCA--RGHDGTTESNCFAFTESSHGSEEFQIHVFSCEIKEAV  240
 
 Query  193  QAVTLTVAQAFK  204
@@ -1209,16 +1220,16 @@ Query  193  QAVTLTVAQAFK  204
 Sbjct  241  SRILYSFCTAFK  252
 
 
->Q5R7W7.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src 
-homology 2 domain-containing-transforming protein C1; 
-Short=SH2 domain protein C1
+>Q5R7W7.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src homology
+2 domain-containing-transforming protein C1; Short=SH2
+domain protein C1 [Pongo abelii]
 Length=583
 
  Score = 41.2 bits (95),  Expect = 0.038, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 43/86 (50%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  232  ITLTVSTSSLNLMAADCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  290
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1226,17 +1237,17 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  291  ECPE-GLAQDVISTIGQAFELRFKQY  315
 
 
->P29353.4 RecName: Full=SHC-transforming protein 1; AltName: Full=SHC-transforming 
-protein 3; AltName: Full=SHC-transforming 
-protein A; AltName: Full=Src homology 2 domain-containing-transforming 
-protein C1; Short=SH2 domain protein C1
+>P29353.4 RecName: Full=SHC-transforming protein 1; AltName: Full=SHC-transforming
+protein 3; AltName: Full=SHC-transforming protein
+A; AltName: Full=Src homology 2 domain-containing-transforming
+protein C1; Short=SH2 domain protein C1 [Homo sapiens]
 Length=583
 
  Score = 41.2 bits (95),  Expect = 0.039, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 43/86 (50%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  232  ITLTVSTSSLNLMAADCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  290
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1244,17 +1255,17 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  291  ECPE-GLAQDVISTIGQAFELRFKQY  315
 
 
->P98083.3 RecName: Full=SHC-transforming protein 1; AltName: Full=SHC-transforming 
-protein A; AltName: Full=Src homology 2 
-domain-containing-transforming protein C1; Short=SH2 domain 
-protein C1
+>P98083.3 RecName: Full=SHC-transforming protein 1; AltName: Full=SHC-transforming
+protein A; AltName: Full=Src homology 2 domain-containing-transforming
+protein C1; Short=SH2 domain protein
+C1 [Mus musculus]
 Length=579
 
- Score = 41.2 bits (95),  Expect = 0.041, Method: Compositional matrix adjust.
+ Score = 41.2 bits (95),  Expect = 0.040, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 43/86 (50%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  232  ITLTVSTSSLNLMAADCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  290
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1262,16 +1273,16 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  291  ECPE-GLAQDVISTIGQAFELRFKQY  315
 
 
->Q0IIE2.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src 
-homology 2 domain-containing-transforming protein C1; 
-Short=SH2 domain protein C1
+>Q0IIE2.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src homology
+2 domain-containing-transforming protein C1; Short=SH2
+domain protein C1 [Bos taurus]
 Length=473
 
  Score = 40.4 bits (93),  Expect = 0.075, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 43/86 (50%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  122  ITLTVSTSSLNLMAADCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  180
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1279,18 +1290,18 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  181  ECPE-GLAQDVISTIGQAFELRFKQY  205
 
 
->Q6S5L8.1 RecName: Full=SHC-transforming protein 4; AltName: Full=Rai-like 
-protein; Short=RaLP; AltName: Full=SHC-transforming 
-protein D; Short=hShcD; AltName: Full=Src homology 2 domain-containing-transforming 
-protein C4; Short=SH2 domain protein 
-C4
+>Q6S5L8.1 RecName: Full=SHC-transforming protein 4; AltName: Full=Rai-like
+protein; Short=RaLP; AltName: Full=SHC-transforming protein
+D; Short=hShcD; AltName: Full=Src homology 2 domain-containing-transforming
+protein C4; Short=SH2 domain protein C4
+[Homo sapiens]
 Length=630
 
  Score = 39.7 bits (91),  Expect = 0.12, Method: Compositional matrix adjust.
  Identities = 46/159 (29%), Positives = 67/159 (42%), Gaps = 33/159 (21%)
 
 Query  83   GMLFSLKYLGMTLVEQPKGE-------ELSAAAIKRI---VATAKASGKK----------  122
-            GM + ++Y+G   V Q           +++  AI R+   V  A  + KK          
+            GM + ++Y+G   V Q           +++  AI R+   V  A  + KK
 Sbjct  189  GMNYCVRYMGCVEVLQSMRSLDFGMRTQVTREAISRLCEAVPGANGAIKKRKPPVKFLST  248
 
 Query  123  -LQKVTLKVSPRGIILTD--------NLTNQ-LIENVSIYRISYCTA-DKMHDKVFAYIA  171
@@ -1302,16 +1313,16 @@ Query  172  QSQHNQSLECHAFLCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  309  KDPVNQR-ACHILEC-HNGMAQDVISTIGQAFELRFKQY  345
 
 
->Q5M824.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src 
-homology 2 domain-containing-transforming protein C1; 
-Short=SH2 domain protein C1
+>Q5M824.1 RecName: Full=SHC-transforming protein 1; AltName: Full=Src homology
+2 domain-containing-transforming protein C1; Short=SH2
+domain protein C1 [Rattus norvegicus]
 Length=469
 
  Score = 39.7 bits (91),  Expect = 0.13, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 43/86 (50%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L      Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  122  ITLTVSTSSLNLMAADCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  180
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1319,8 +1330,8 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  181  ECPE-GLAQDVISTIGQAFELRFKQY  205
 
 
->Q92870.3 RecName: Full=Amyloid-beta A4 precursor protein-binding 
-family B member 2; AltName: Full=Protein Fe65-like 1
+>Q92870.3 RecName: Full=Amyloid-beta A4 precursor protein-binding family
+B member 2; AltName: Full=Protein Fe65-like 1 [Homo sapiens]
 Length=758
 
  Score = 39.7 bits (91),  Expect = 0.13, Method: Compositional matrix adjust.
@@ -1335,8 +1346,8 @@ Query  145  LIENVSIYRISYCTADK-MHDKVFAYIAQSQHNQSLECHAFLC  186
 Sbjct  648  VLVECRVRFLSFMGVGKDVH--TFAFIMDT-GNQRFECHVFWC  687
 
 
->Q9DBR4.2 RecName: Full=Amyloid-beta A4 precursor protein-binding 
-family B member 2
+>Q9DBR4.2 RecName: Full=Amyloid-beta A4 precursor protein-binding family
+B member 2 [Mus musculus]
 Length=760
 
  Score = 39.7 bits (91),  Expect = 0.14, Method: Compositional matrix adjust.
@@ -1351,7 +1362,7 @@ Query  145  LIENVSIYRISYCTADK-MHDKVFAYIAQSQHNQSLECHAFLC  186
 Sbjct  650  VLVECRVRFLSFMGVGKDVH--TFAFIMDT-GNQRFECHVFWC  689
 
 
- Score = 34.3 bits (77),  Expect = 7.2, Method: Compositional matrix adjust.
+ Score = 34.3 bits (77),  Expect = 7.1, Method: Compositional matrix adjust.
  Identities = 17/57 (30%), Positives = 30/57 (53%), Gaps = 3/57 (5%)
 
 Query  141  LTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTL  197
@@ -1359,16 +1370,16 @@ Query  141  LTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTL  197
 Sbjct  490  LHSQPIVNIRVWGVGR---DNGRERDFAYVARDKDTRILKCHVFRCDTPAKAIATSL  543
 
 
->Q8AY68.2 RecName: Full=SHC-transforming protein 1; AltName: Full=Src 
-homology 2 domain-containing-transforming protein C1; 
-Short=SH2 domain protein C1; AltName: Full=p60Shc
+>Q8AY68.2 RecName: Full=SHC-transforming protein 1; AltName: Full=Src homology
+2 domain-containing-transforming protein C1; Short=SH2
+domain protein C1; AltName: Full=p60Shc [Xenopus laevis]
 Length=465
 
  Score = 39.3 bits (90),  Expect = 0.18, Method: Compositional matrix adjust.
  Identities = 27/86 (31%), Positives = 44/86 (51%), Gaps = 3/86 (3%)
 
 Query  126  VTLKVSPRGIILTDNLTNQLIENVSIYRISYCTA-DKMHDKVFAYIAQSQHNQSLECHAF  184
-            +TL VS   + L  +   Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH  
+            +TL VS   + L  +   Q+I N  +  IS+ +  D    +  AY+A+   NQ   CH
 Sbjct  120  ITLTVSTSSLNLMASDCKQIIANHHMQSISFASGGDPDTAEYVAYVAKDPVNQR-ACHIL  178
 
 Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
@@ -1376,9 +1387,9 @@ Query  185  LCTKRKMAQAVTLTVAQAFKVAFEFW  210
 Sbjct  179  ECPE-GLAQDVISTIGQAFELRFKQY  203
 
 
->Q3UBG2.2 RecName: Full=PTB-containing, cubilin and LRP1-interacting 
-protein; Short=P-CLI1; AltName: Full=Phosphotyrosine 
-interaction domain-containing protein 1
+>Q3UBG2.2 RecName: Full=PTB-containing, cubilin and LRP1-interacting protein;
+Short=P-CLI1; AltName: Full=Phosphotyrosine interaction
+domain-containing protein 1 [Mus musculus]
 Length=217
 
  Score = 37.0 bits (84),  Expect = 0.44, Method: Composition-based stats.
@@ -1393,9 +1404,9 @@ Query  202  AFKVAF  207
 Sbjct  185  AFKKTF  190
 
 
->Q9Y3P9.3 RecName: Full=Rab GTPase-activating protein 1; AltName: 
-Full=GAP and centrosome-associated protein; AltName: Full=Rab6 
-GTPase-activating protein GAPCenA
+>Q9Y3P9.3 RecName: Full=Rab GTPase-activating protein 1; AltName: Full=GAP
+and centrosome-associated protein; AltName: Full=Rab6 GTPase-activating
+protein GAPCenA [Homo sapiens]
 Length=1069
 
  Score = 37.7 bits (86),  Expect = 0.58, Method: Compositional matrix adjust.
@@ -1406,7 +1417,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  143  DSVVFSKLTYLGCASVNAPRSE----VEALRMMSILRSQCQISLDVTLSVPNVSEGIVRL  198
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMA  192
-             D  TN  I N  IY+I +C   + HD       FA+     + +    H F C  ++  
+             D  TN  I N  IY+I +C   + HD       FA+     + +    H F C  ++
 Sbjct  199  LDPQTNTEIANYPIYKILFCV--RGHDGTPESDCFAFTESHYNAELFRIHVFRCEIQEAV  256
 
 Query  193  QAVTLTVAQAFK  204
@@ -1414,9 +1425,9 @@ Query  193  QAVTLTVAQAFK  204
 Sbjct  257  SRILYSFATAFR  268
 
 
->Q5RAN1.1 RecName: Full=Rab GTPase-activating protein 1; AltName: 
-Full=GAP and centrosome-associated protein; AltName: Full=Rab6 
-GTPase-activating protein GAPCenA
+>Q5RAN1.1 RecName: Full=Rab GTPase-activating protein 1; AltName: Full=GAP
+and centrosome-associated protein; AltName: Full=Rab6 GTPase-activating
+protein GAPCenA [Pongo abelii]
 Length=1069
 
  Score = 37.7 bits (86),  Expect = 0.61, Method: Compositional matrix adjust.
@@ -1427,7 +1438,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  143  DSVVFSKLTYLGCASVNAPRSE----VEALRMMSILRSQCQISLDVTLSVPNVSEGIVRL  198
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMA  192
-             D  TN  I N  IY+I +C   + HD       FA+     + +    H F C  ++  
+             D  TN  I N  IY+I +C   + HD       FA+     + +    H F C  ++
 Sbjct  199  LDPQTNTEIANYPIYKILFCV--RGHDGTPESDCFAFTESHYNAELFRIHVFRCEIQEAV  256
 
 Query  193  QAVTLTVAQAFK  204
@@ -1435,7 +1446,30 @@ Query  193  QAVTLTVAQAFK  204
 Sbjct  257  SRILYSFATAFR  268
 
 
->Q5ZJ17.1 RecName: Full=Rab GTPase-activating protein 1-like
+>Q13387.2 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+2; Short=JIP-2; Short=JNK-interacting protein 2; AltName: Full=Islet-brain-2;
+Short=IB-2; AltName: Full=JNK MAP kinase
+scaffold protein 2; AltName: Full=Mitogen-activated protein
+kinase 8-interacting protein 2 [Homo sapiens]
+Length=824
+
+ Score = 37.4 bits (85),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 32/133 (24%), Positives = 61/133 (46%), Gaps = 13/133 (10%)
+
+Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQ---KVTLKVSPRGIILTDNLT  142
+            F +++LG   V   +G  +  AA+++I ATA+     L+      L++S RG+ L+ +
+Sbjct  683  FDVQFLGSVEVPCHQGNGILCAAMQKI-ATARKLTVHLRPPASCDLEISLRGVKLSLSGG  741
+
+Query  143  NQLIENVSIY----RISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLT  198
+                +  S +     IS+C     +   F +I +        CH F+   ++  + V  +
+Sbjct  742  GPEFQRCSHFFQMKNISFCGCHPRNSCYFGFITKHPLLSRFACHVFV--SQESMRPVAQS  799
+
+Query  199  VAQAFKVAFEFWQ  211
+            V +AF    E++Q
+Sbjct  800  VGRAF---LEYYQ  809
+
+
+>Q5ZJ17.1 RecName: Full=Rab GTPase-activating protein 1-like [Gallus gallus]
 Length=816
 
  Score = 37.0 bits (84),  Expect = 1.0, Method: Compositional matrix adjust.
@@ -1446,7 +1480,7 @@ Query  82   EGMLFS-LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTLKV--SPRGII-L  137
 Sbjct  126  DSVLFNKLTYLGSMKVSAPRNEPEAL----RAMANMKSSSQAPLSVTLYVPNVPEGSVRI  181
 
 Query  138  TDNLTNQLIENVSIYRISYCTADKM---HDKVFAYIAQSQHNQSLECHAFLCTKRKMAQA  194
-             D  +N  I +  IY++ +C   +        FA+   S   +  + H F C  ++    
+             D  +N  I +  IY++ +C   +        FA+   S   +  + H F C  ++
 Sbjct  182  IDQSSNVEIASFPIYKVLFCVRGQNGTSESDCFAFTESSCGTEEFQIHVFSCEIKEAVSR  241
 
 Query  195  VTLTVAQAFK  204
@@ -1454,20 +1488,20 @@ Query  195  VTLTVAQAFK  204
 Sbjct  242  ILYSFSTAFK  251
 
 
->A2AWA9.1 RecName: Full=Rab GTPase-activating protein 1; AltName: 
-Full=GAP and centrosome-associated protein; AltName: Full=Rab6 
-GTPase-activating protein GAPCenA
+>A2AWA9.1 RecName: Full=Rab GTPase-activating protein 1; AltName: Full=GAP
+and centrosome-associated protein; AltName: Full=Rab6 GTPase-activating
+protein GAPCenA [Mus musculus]
 Length=1064
 
  Score = 36.6 bits (83),  Expect = 1.4, Method: Compositional matrix adjust.
  Identities = 33/125 (26%), Positives = 52/125 (42%), Gaps = 14/125 (11%)
 
 Query  88   LKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQKVTL---KVSPRGIILTDNLTNQ  144
-            L YLG   V  P+ E        R+++  ++  +    VTL    VS   + L D  TN 
+            L YLG   V  P+ E        R+++  ++  +    VTL    VS   + L D  TN
 Sbjct  145  LTYLGCASVNAPRSE----VEALRMMSILRSQCQISLDVTLSVPNVSEGTVRLLDPQTNT  200
 
 Query  145  LIENVSIYRISYCTADKMHD-----KVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLTV  199
-             I N  IY+I +C   + HD       FA+     + +    H F C  ++    +  + 
+             I N  IY+I +C   + HD       FA+     + +    H F C  ++    +  +
 Sbjct  201  EIANYPIYKILFCV--RGHDGTPESDCFAFTESHYNAELFRIHVFRCEIQEAVSRILYSF  258
 
 Query  200  AQAFK  204
@@ -1475,10 +1509,10 @@ Query  200  AQAFK  204
 Sbjct  259  ATAFR  263
 
 
->O96018.1 RecName: Full=Amyloid-beta A4 precursor protein-binding 
-family A member 3; AltName: Full=Adapter protein X11gamma; 
-AltName: Full=Neuron-specific X11L2 protein; AltName: Full=Neuronal 
-Munc18-1-interacting protein 3; Short=Mint-3
+>O96018.1 RecName: Full=Amyloid-beta A4 precursor protein-binding family
+A member 3; AltName: Full=Adapter protein X11gamma; AltName:
+Full=Neuron-specific X11L2 protein; AltName: Full=Neuronal
+Munc18-1-interacting protein 3; Short=Mint-3 [Homo sapiens]
 Length=575
 
  Score = 35.8 bits (81),  Expect = 1.9, Method: Compositional matrix adjust.
@@ -1497,10 +1531,32 @@ Query  182  HAFLCTKRKMAQAVTLTVAQAFKVAF  207
 Sbjct  331  HVFYAED---AQLIAQAIGQAFAAAY  353
 
 
->Q7Z2X4.1 RecName: Full=PTB-containing, cubilin and LRP1-interacting 
-protein; Short=P-CLI1; AltName: Full=Phosphotyrosine 
-interaction domain-containing protein 1; AltName: Full=Protein 
-NYGGF4
+>O70248.2 RecName: Full=Amyloid-beta A4 precursor protein-binding family
+A member 3; AltName: Full=Adapter protein X11gamma; AltName:
+Full=Neuron-specific X11L2 protein; AltName: Full=Neuronal
+Munc18-1-interacting protein 3; Short=Mint-3 [Rattus norvegicus]
+Length=569
+
+ Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 47/169 (28%), Positives = 79/169 (47%), Gaps = 30/169 (18%)
+
+Query  77   RETLLEGMLFSLKYLGMT--LVEQ--PKGEELSAA--AIKRIVATAKASGKKLQKVTLKV  130
+            +E L++G+LF  KYLG T  L E+  P    +  A  A+ R+ A  +   + + +V + +
+Sbjct  207  QEELMDGVLFGAKYLGSTQLLSERNPPPSTRMGQAQEAMDRVKA-PEGETQPMTEVDIFI  265
+
+Query  131  SPRGI-ILTDNLTNQLIENVSIYRISYCTADK------MHDKVFAYIAQSQHNQ----SL  179
+            S + + +L  +  + L+++ ++  ISY  AD       M  +  A    SQ  Q     +
+Sbjct  266  STKRVKVLAADSQDALMDH-ALQTISY-IADIGPVLVLMARRRLAKRTTSQDRQRQLYKM  323
+
+Query  180  ECHAFLCTKRKMAQAVTLTVAQAFKVAF-EFWQVSKEEKEKRDKASQEG  227
+             CH F     + AQ +   + QAF +A+ +F Q      E R   SQ G
+Sbjct  324  LCHVF---HSEDAQLIAQAIGQAFSIAYSQFLQ------ENRIDPSQVG  363
+
+
+>Q7Z2X4.1 RecName: Full=PTB-containing, cubilin and LRP1-interacting protein;
+Short=P-CLI1; AltName: Full=Phosphotyrosine interaction
+domain-containing protein 1; AltName: Full=Protein NYGGF4
+[Homo sapiens]
 Length=250
 
  Score = 35.0 bits (79),  Expect = 2.2, Method: Compositional matrix adjust.
@@ -1511,16 +1567,109 @@ Query  146  IENVSIYRISYCTAD-KMHDKVFAYIAQSQHNQ---SLECHAFLCTKRKMAQAVTLTVAQ  201
 Sbjct  158  MDTFQVARIAYCTADHNVSPNIFAWVYREINDDLSYQMDCHAVECESKLEAKKLAHAMME  217
 
 Query  202  AFKVAFE  208
-            AF+  F 
+            AF+  F
 Sbjct  218  AFRKTFH  224
 
 
+>Q9ERE9.1 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+2; Short=JIP-2; Short=JNK-interacting protein 2; AltName: Full=Islet-brain-2;
+Short=IB-2; AltName: Full=JNK MAP kinase
+scaffold protein 2; AltName: Full=Mitogen-activated protein
+kinase 8-interacting protein 2 [Mus musculus]
+Length=830
 
-Lambda      K        H        a         alpha
-   0.335    0.144    0.485    0.792     4.96 
+ Score = 35.8 bits (81),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 32/133 (24%), Positives = 61/133 (46%), Gaps = 13/133 (10%)
 
+Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQ---KVTLKVSPRGIILTDNLT  142
+            F +++LG   V   +G  +  AA+++I ATA+     L+      L++S RG+ L+ +
+Sbjct  689  FDVQFLGSVEVPCHQGNGILCAAMQKI-ATARKLTVHLRPPASCDLEISLRGVKLSLSGG  747
+
+Query  143  NQLIENVSIY----RISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLT  198
+                +  S +     IS+C     +   F +I +        CH F+   ++  + V  +
+Sbjct  748  GPEFQRCSHFFQMKNISFCGCHPRNSCYFGFITKHPLLSRFACHVFV--SQESMRPVARS  805
+
+Query  199  VAQAFKVAFEFWQ  211
+            V +AF    E++Q
+Sbjct  806  VGRAF---LEYYQ  815
+
+
+>G3V9M2.1 RecName: Full=C-Jun-amino-terminal kinase-interacting protein
+2; Short=JIP-2; Short=JNK-interacting protein 2; AltName: Full=Islet-brain-2;
+Short=IB-2; AltName: Full=JNK MAP kinase
+scaffold protein 2; AltName: Full=Mitogen-activated protein
+kinase 8-interacting protein 2 [Rattus norvegicus]
+Length=835
+
+ Score = 35.4 bits (80),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 32/133 (24%), Positives = 61/133 (46%), Gaps = 13/133 (10%)
+
+Query  86   FSLKYLGMTLVEQPKGEELSAAAIKRIVATAKASGKKLQ---KVTLKVSPRGIILTDNLT  142
+            F +++LG   V   +G  +  AA+++I ATA+     L+      L++S RG+ L+ +
+Sbjct  694  FDVQFLGSVEVPCHQGNGILCAAMQKI-ATARKLTVHLRPPASCDLEISLRGVKLSLSGG  752
+
+Query  143  NQLIENVSIY----RISYCTADKMHDKVFAYIAQSQHNQSLECHAFLCTKRKMAQAVTLT  198
+                +  S +     IS+C     +   F +I +        CH F+   ++  + V  +
+Sbjct  753  GPEFQRCSHFFQMKNISFCGCHPRNSCYFGFITKHPLLSRFACHVFV--SQESMRPVARS  810
+
+Query  199  VAQAFKVAFEFWQ  211
+            V +AF    E++Q
+Sbjct  811  VGRAF---LEYYQ  820
+
+
+>P46933.3 RecName: Full=Amyloid-beta A4 precursor protein-binding family
+B member 1; AltName: Full=Protein Fe65 [Rattus norvegicus]
+Length=711
+
+ Score = 33.5 bits (75),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 35/66 (53%), Gaps = 7/66 (11%)
+
+Query  122  KLQKVTLK-VSPRGIILTDNLTNQLIENVSIYRISYCTADKMHDKVFAYIAQSQHNQSLE  180
+            +L+  TLK V P+   L   L  Q I ++ ++ +     D   ++ FAY+A+ +  Q L+
+Sbjct  426  QLEDETLKLVEPQNQTL---LHAQPIVSIRVWGVGR---DSGRERDFAYVARDKLTQMLK  479
+
+Query  181  CHAFLC  186
+            CH F C
+Sbjct  480  CHVFRC  485
+
+
+  Database: Non-redundant UniProtKB/SwissProt sequences
+    Posted date:  Jun 6, 2019  2:34 AM
+  Number of letters in database: 177,790,675
+  Number of sequences in database:  470,929
+
+Lambda      K        H
+   0.335    0.144    0.485
 Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 470929
+Number of Hits to DB: 32673370
+Number of extensions: 1374159
+Number of successful extensions: 5224
+Number of sequences better than 100: 33
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 5214
+Number of HSP's successfully gapped: 34
+Length of query: 978
+Length of database: 177790675
+Length adjustment: 127
+Effective length of query: 851
+Effective length of database: 117982692
+Effective search space: 100403270892
+Effective search space used: 100403270892
+T: 11
+A: 40
+X1: 15 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 66 (30.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
 
-Effective search space used: 100713935250
